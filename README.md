@@ -31,7 +31,7 @@ Einige der wichtigsten Metadatenfelder in ORAP sind:
 - **Wikidata-IDs zur besseren Vernetzung**
 
 Eine vollständige Liste aller Metadatenfelder finden Sie hier:
-🔗 **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+**[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
 ### **Skripte & Automatisierung**
 Aktuell existieren keine Skripte für die Verarbeitung oder Analyse der Daten. Perspektivisch könnten jedoch APIs oder weitere digitale Tools die Nutzung erleichtern.
@@ -40,7 +40,7 @@ Aktuell existieren keine Skripte für die Verarbeitung oder Analyse der Daten. P
 
 ### **Wie kann man die Daten herunterladen?**
 Die aktuellen Daten sind als CSV-Datei über den folgenden Link verfügbar:
-🔗 **[Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+**[Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
 ### **Lizenzierung**
 Die Wahl der Lizenz erfolgte in Abstimmung mit externen Expertinnen. ORAP wird unter der **CC0-Lizenz** veröffentlicht.
@@ -62,7 +62,7 @@ Die Community ist eingeladen, sich an der Erweiterung von ORAP zu beteiligen. De
 
 ### **Meldung neuer Preise**
 Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:
-🔗 **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
+**[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
 ### **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:
@@ -70,7 +70,7 @@ Bei Fragen oder Anregungen erreichen Sie uns unter:
 **Dr. Göde Both** – [both@kfid-online.de](mailto:both@kfid-online.de)
 
 ## **Weitere Ressourcen**
-🔗 **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+**[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
 ---
 
