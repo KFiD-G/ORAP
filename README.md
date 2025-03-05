@@ -31,13 +31,13 @@ Einige der wichtigsten Metadatenfelder in ORAP sind:
 - **Vergabezeitraum & Laufzeit**
 - **Wikidata-IDs zur besseren Vernetzung**
 
-Eine vollständige Liste aller Metadatenfelder finden Sie hier:
+Eine vollständige Liste aller Metadatenfelder finden Sie hier:  
 **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
 ## **Nutzung**
 
 ### **Wie kann man die Daten herunterladen?**
-Die aktuellen Daten sind als CSV-Datei über den folgenden Link verfügbar:
+Die aktuellen Daten sind als CSV-Datei über den folgenden Link verfügbar:  
 **[Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
 ### **Lizenzierung**
@@ -55,7 +55,7 @@ Die Wahl der Lizenz erfolgte in Abstimmung mit externen Expertinnen. ORAP wird u
 Die Community ist eingeladen, sich an der Erweiterung von ORAP zu beteiligen. Der Prozess für Pull Requests und Beiträge befindet sich aktuell noch im Ausbau.
 
 ### **Meldung neuer Preise**
-Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:
+Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
 **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
 ### **Kontakt**
