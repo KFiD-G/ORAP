@@ -59,8 +59,8 @@ Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das 
 **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
 ### **Kontakt**
-Bei Fragen oder Anregungen erreichen Sie uns unter:
-**Dr. Göde Both** – [both@kfid-online.de](mailto:both@kfid-online.de)
+Bei Fragen oder Anregungen erreichen Sie uns unter:  
+**Dr. Göde Both** – [both@kfid-online.de](mailto:both@kfid-online.de)  
 **Nikolai Schmarbeck** – [schmarbeck@kfid-online.de](mailto:schmarbeck@kfid-online.de)  
 **Christoph Thiedig** - [both@kfid-online.de](mailto:thiedig@dzhw.eu)
 
