@@ -1,5 +1,7 @@
 # ORAP – Offenes Register für wissenschaftliche Auszeichnungen und Preise
 
+**ORAP ist ein community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!**
+
 ## **Einführung & Projektbeschreibung**
 
 ### **Was ist ORAP?**
@@ -32,13 +34,22 @@ Einige der wichtigsten Metadatenfelder in ORAP sind:
 - **Wikidata-IDs zur besseren Vernetzung**
 
 Eine vollständige Liste aller Metadatenfelder finden Sie hier:  
-**[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+- **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+
+## Format der Liste
+
+Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
+
+- **CSV (UTF-8 kodiert)** – geeignet für die Verarbeitung in Tabellenkalkulationen und Datenbanken.
+
+- **Excel (XLSX)** – für komfortables Arbeiten in Microsoft Excel oder anderen kompatiblen Programmen.
 
 ## **Nutzung**
 
 ### **Wie kann man die Daten herunterladen?**
-Die aktuellen Daten sind als CSV-Datei über den folgenden Link verfügbar:  
-**[Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar:  
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, UTF-8, Version 1.2025)](https://docs.google.com/spreadsheets/d/1Rf1n0SsCdKeO2lEypYQcPSX25NXSk9Fb6yEw9um034g/export?format=csv)**  
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.2025)](https://docs.google.com/spreadsheets/d/1Rf1n0SsCdKeO2lEypYQcPSX25NXSk9Fb6yEw9um034g/export?format=xlsx)**
 
 ### **Lizenzierung**
 Die Wahl der Lizenz erfolgte in Abstimmung mit externen Expertinnen. ORAP wird unter der **CC0-Lizenz** veröffentlicht.
@@ -56,7 +67,7 @@ Die Community ist eingeladen, sich an der Erweiterung von ORAP zu beteiligen. De
 
 ### **Meldung neuer Preise**
 Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
-**[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
+- **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
 ### **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
@@ -64,11 +75,7 @@ Bei Fragen oder Anregungen erreichen Sie uns unter:
 **Nikolai Schmarbeck** – [schmarbeck@kfid-online.de](mailto:schmarbeck@kfid-online.de)  
 **Christoph Thiedig** - [both@kfid-online.de](mailto:thiedig@dzhw.eu)
 
-## **Weitere Ressourcen**
-**[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
 
----
 
-ORAP ist ein community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!
 
 
