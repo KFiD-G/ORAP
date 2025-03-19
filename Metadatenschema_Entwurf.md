@@ -69,10 +69,10 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 
 | Information         | Beschreibung |
 |---------------------|------|
-| **Element_ID**      | 0  |
-| **Name**           | id_intern |
+| **Element_ID**      | 1  |
+| **Name**           | kf_prize_id |
 | **Bestehender Name** | - |
-| **Definition**      | Eindeutiger Identifier für jedes Datum. Dieser Identifier wird fortlaufend vergeben. Liste startet mit 1. |
+| **Definition**      | Eindeutiger Identifier für jedes Datum. Dieser Identifier ist eine fortlaufende Zahl. |
 | **Entitätentyp**    | Identifier |
 | **Wert**           | Zahl (unbegrenzte Ziffernanzahl) |
 | **Occurence**      | 1 |
