@@ -12,7 +12,10 @@
 3. [Informationen über jedes Element im Metadatenschema](#informationen-über-jedes-element-im-metadatenschema)
 4. [Die einzelnen Felder im Metadatenschema](#die-einzelnen-felder-im-metadatenschema)  
    - [Identifier](#identifier)
-   - [Wikidata Identifier](#wikidata-identifier) 
+   - [Wikidata Identifier](#wikidata-identifier)
+   - [Bezeichnung des Preises](#bezeichnung-des-preises)
+   - [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)
+   - [Übersetzungen des Preises](#übersetzungen_des_preises) 
 
 ---
 
@@ -93,8 +96,74 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 
 
 #### **Aufnahmeregel für Element ID 2**  
-- Bei Aufnahme eines neuen Preises erfolgt ein **Abgleich mit Wikidata**, um zu prüfen, ob es bereits einen entsprechenden Eintrag gibt.  
+- Bei Aufnahme eines neuen Preises erfolgt ein **Abgleich mit Wikidata**, um zu prüfen, ob es bereits einen entsprechenden Eintrag gibt.
 - Falls vorhanden, wird der **Wikidata-Identifier übernommen**.  
 - [Wikidata Identifier-Referenz](https://www.wikidata.org/wiki/Wikidata:Identifiers)  
+
+---
+
+### Bezeichnung des Preises
+
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**  | 3  |
+| **Name**        | label_sprache_original |
+| **Bestehender Name** | - |
+| **Definition**  | Bezeichnung des Preises in der Originalsprache. |
+| **Entitätentyp** | Freitext |
+| **Wert**        | Freitext  |
+| **Occurence**   | 1  |
+
+#### **Aufnahmeregel für Element ID 3**
+**Name: label_sprache_original**  
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
+
+---
+
+### Sprache der Preisbezeichnung
+
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**  | 3a  |
+| **Name**        | label_sprache_original_code |
+| **Bestehender Name** | - |
+| **abhängiges Feld** | label_sprache_original |
+| **Definition**  | Auszeichnung der Sprache, in der die Preisbezeichnung im Original vorliegt. |
+| **Entitätentyp** | Kontrollierte Liste (extern) |
+| **Wert**        | Sprachcode nach ISO-639-1  |
+| **Occurence**   | 1  |
+
+#### **Aufnahmeregel für Element ID 3a**
+**Name: label_sprache_original_code**   
+Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
+
+---
+
+### Übersetzungen des Preises
+
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**  | 3.1  |
+| **Name**        | label_uebersetzung_en |
+| **Bestehender Name** | - |
+| **Definition**  | Bezeichnung des Preises übersetzt in die englische Sprache, wenn Feld label_sprache_original_code nicht EN ist. |
+| **Entitätentyp** | Freitext |
+| **Wert**        | Freitext |
+| **Occurence**   | 0-1 |
+
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**  | 3.2  |
+| **Name**        | label_uebersetzung_de |
+| **Bestehender Name** | label_deutsch_wd |
+| **abhängiges Feld** | label_sprache_de |
+| **Definition**  | Bezeichnung des Preises ins Englische übersetzt, wenn Feld label_sprache_original_code nicht DE ist. |
+| **Entitätentyp** | Freitext |
+| **Wert**        | Freitext |
+| **Occurence**   | 0-1 |
+
+#### **Aufnahmeregel für Element ID 3.1 und 3.2**
+**Name: label_uebersetzung_en; label_uebersetzung_de**  
+Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung auf Deutsch, wird zusätzlich eine englische Übersetzung eingetragen. Ist die Originalbezeichnung auf Englisch, wird zusätzlich eine deutsche Übersetzung eingetragen. Ist die Originalbezeichnung weder auf Deutsch noch auf Englisch, werden sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Aufnahme der Übersetzungen wird den offiziellen Webseiten entnommen. Falls dort keine Übersetzung verfügbar ist, bleiben die entsprechenden Felder leer.
 
 
