@@ -66,26 +66,31 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 ## Die einzelnen Felder im Metadatenschema
 
 ### Identifier
-| Element_ID | Name       | Bestehender Name | Definition |
-|------------|-----------|-----------------|------------|
-| 0          | id_intern | -               | Eindeutiger Identifier für jedes Datum. Dieser Identifier wird fortlaufend vergeben. Liste startet mit 1. |
 
-- **Entitätentyp:** Identifier  
-- **Wert:** Zahl (unbegrenzte Ziffernanzahl)  
-- **Occurence:** 1  
-  
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**      | 0  |
+| **Name**           | id_intern |
+| **Bestehender Name** | - |
+| **Definition**      | Eindeutiger Identifier für jedes Datum. Dieser Identifier wird fortlaufend vergeben. Liste startet mit 1. |
+| **Entitätentyp**    | Identifier |
+| **Wert**           | Zahl (unbegrenzte Ziffernanzahl) |
+| **Occurence**      | 1 |
 
 ---
 
 ### Wikidata Identifier
-| Element_ID | Name        | Bestehender Name | Definition |
-|------------|------------|-----------------|------------|
-| 2          | wikidata_id | wikidata_id     | Eindeutiger Identifier, der von Wikidata kommt. |
 
-- **Entitätentyp:** Wikidata Identifier  
-- **Wert:** Beginnt mit `Q`, gefolgt von Ziffern (z. B. `Q30328658`, `Q874251`)  
-- **Occurence:** 0-1  
-- **Intern/Extern:** Extern  
+| Information         | Beschreibung |
+|---------------------|------|
+| **Element_ID**  | 2  |
+| **Name**        | wikidata_id |
+| **Bestehender Name** | wikidata_id |
+| **Definition**  | Eindeutiger Identifier, der von Wikidata kommt. |
+| **Entitätentyp** | Identifier |
+| **Wert**        | Beginnt mit `Q`, gefolgt von Ziffern (z. B. `Q30328658`, `Q874251`)  |
+| **Occurence**   | 0-1  |
+
 
 #### **Aufnahmeregel für Element ID 2**  
 - Bei Aufnahme eines neuen Preises erfolgt ein **Abgleich mit Wikidata**, um zu prüfen, ob es bereits einen entsprechenden Eintrag gibt.  
