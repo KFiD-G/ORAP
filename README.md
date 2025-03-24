@@ -1,3 +1,8 @@
+[![CC0 1.0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+
+> 🔓 Das Projekt **ORAP – Offenes Register für wissenschaftliche Auszeichnungen und Preise** steht unter der  
+> [Creative Commons CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.de).  
+
 # ORAP – Offenes Register für wissenschaftliche Auszeichnungen und Preise
 
 **ORAP ist ein community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!**
