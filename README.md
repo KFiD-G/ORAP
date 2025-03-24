@@ -71,7 +71,7 @@ Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das 
 
 ### **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
-- **[orap@kfid-online.de](mailto:orap@kfid-online.de)**
+**[orap@kfid-online.de](mailto:orap@kfid-online.de)**
 
 
 
