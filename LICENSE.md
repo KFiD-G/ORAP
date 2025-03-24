@@ -1,7 +1,5 @@
 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 
-Copyright (C) 2025 Kommission für Forschungsinformationen in Deutschland (KFiD)
-
 To the extent possible under law, the person who associated CC0 with this work has waived all copyright and related or neighboring rights to this work.
 
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
