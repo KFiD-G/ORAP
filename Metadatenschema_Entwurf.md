@@ -26,7 +26,9 @@
    - [Dotierung eines Preises](#Dotierung-eines-Preises)
    - [Preisgeld – Währung](#Preisgeld-/-Währung)
    - [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)
-   - [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete) 
+   - [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete)
+   - [Nominierung](#Nominierung)
+   - [Laufzeit eines Preises](#Laufzeit-eines-Preises) 
 
 ---
 
@@ -479,46 +481,118 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 #### Aufnahmeregeln für Element ID 13 und 13.1
 
-- **Hierarchie geografischer Angaben:**  
-  Vom Großen zum Kleinen getrennt durch Kommas.  
-  Beispiel: `Deutschland, Hessen, Frankfurt`
+- **Hierarchische Struktur geografischer Angaben:**  
+  Gebiete werden vom Allgemeinen zum Spezifischen angegeben und durch Kommas getrennt.  
+  *Beispiel:* `Deutschland, Hessen, Frankfurt`
 
-- **Gleichrangige Einträge:**  
-  Mit Semikolon trennen.  
-  Beispiel: `Deutschland; Frankreich; Irland`
+- **Gleichrangige geografische Einheiten:**  
+  Werden durch ein Semikolon getrennt.  
+  *Beispiel:* `Deutschland; Frankreich; Irland`
 
 - **Mehrere geografische Bezüge:**  
-  In neuen Zeilen, jeweils mit vollständiger Hierarchie.  
-  Beispiel:
+  Werden jeweils in einer neuen Zeile angegeben, beginnend mit dem größten Bezug.  
+  *Beispiel:*  
   ```
   Deutschland, Hessen, Frankfurt  
   Deutschland, Brandenburg, Potsdam
   ```
+  (nicht: `Deutschland, Hessen, Brandenburg, Frankfurt, Potsdam`)
 
-- **Sonderbegriffe:**  
-  Begrifflichkeiten wie „Schwellenländer“, „globale Südregionen“ etc. können direkt eingetragen werden.
+- **Allgemeine geografische Begriffe:**  
+  Begriffe wie „Schwellenländer“, „globale Südregionen“, „Lateinamerika“ oder „osteuropäische Länder“ dürfen direkt eingetragen werden.
 
-**Besonderheiten bei „Einrichtungs- oder organisationsgebunden“:**
+- **Keine Angabe vorhanden:**  
+  Wenn keine geografische Einschränkung bekannt ist, wird „Keine Angabe“ eingetragen.
 
-Wenn dieser Wert gewählt wird, muss zusätzlich das Feld `einschraenkung_wirkungsstaette_selbstbezeichnung` ausgefüllt werden.
+#### Besondere Hinweise bei „Einrichtungs- oder organisationsgebunden“
 
-Beispiele:
+Wenn dieses Kriterium ausgewählt wird, ist zusätzlich das Feld `einschraenkung_wirkungsstaette_selbstbezeichnung` verpflichtend auszufüllen.
 
-1. **Gebunden an spezifische Einrichtung in einem Gebiet:**  
+#### Mögliche Fälle:
+
+1. **Gebunden an eine konkrete Einrichtung in einem bestimmten Ort:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland, Baden-Württemberg, Freiburg`  
    - `einschraenkung_wirkungsstaette_selbstbezeichnung`: `Universität Freiburg`
 
-2. **Gebunden an eine Organisation ohne geografische Einschränkung:**  
+2. **Gebunden an eine Organisation, aber ohne geografische Einschränkung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
    - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
 
-3. **Gebunden an internationale Mitgliedschaft:**  
+3. **Gebunden an internationale Mitgliedschaft mit weltweiter Bewerbung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `international`  
    - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
 
-Alle Angaben müssen logisch zusammenpassen.
+> 🔎 Die Angaben in den Feldern `einschraenkung_wirkungsstaette`, `einschraenkung_wirkungsstaette_gebiet` und `einschraenkung_wirkungsstaette_selbstbezeichnung` müssen logisch und nachvollziehbar zusammenpassen.
 
+---
 
+### Nominierung
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 15 |
+| **Name**         | nominierung |
+| **Definition**   | Gibt an, ob Eigenbewerbungen möglich sind und/oder wer nominieren darf. |
+| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Wert**         | Eigenbewerbung und Nominierung; Eigenbewerbung; Nominierung offen; Nominierung eingeschränkt; Nominierung Einrichtung / Gremium; Keine Angabe |
+| **Occurence**    | 1 |
+
+#### Definitionen der Werte:
+
+- **Eigenbewerbung und Nominierung**  
+  Sowohl Eigenbewerbungen als auch Nominierungen sind erlaubt – ohne Einschränkung hinsichtlich der nominierenden Person.
+
+- **Eigenbewerbung**  
+  Nur Eigenbewerbungen sind möglich. Eine Nominierung durch Dritte ist nicht erforderlich.
+
+- **Nominierung offen**  
+  Kandidat*innen können von beliebigen Personen oder Einrichtungen vorgeschlagen werden (z. B. Wissenschaftler*innen, Universitäten).  
+  Eigenbewerbungen sind **nicht** erlaubt.
+
+- **Nominierung eingeschränkt**  
+  Nur bestimmte Personen oder Gruppen dürfen nominieren (z. B. frühere Preisträger*innen, Mitglieder bestimmter Fachgesellschaften).
+
+- **Nominierung Einrichtung / Gremium**  
+  Nur institutionelle Nominierungen sind zulässig (z. B. durch Universitäten oder Auswahlgremien).  
+  Die Nominierung selbst stellt bereits eine Form der Auszeichnung dar.
+
+- **Keine Angabe**  
+  Es liegen keine öffentlich zugänglichen Informationen zur Nominierung vor.
+
+#### Aufnahmeregel für Element ID 15
+
+Die Abgrenzung zwischen „Nominierung eingeschränkt“ und „Nominierung Einrichtung / Gremium“ ist nicht immer eindeutig:
+
+- Wenn nur Mitglieder der verleihenden Organisation nominieren dürfen → **„Nominierung eingeschränkt“**
+- Wenn ausschließlich eine bestimmte Einrichtung oder ein offizielles Gremium nominieren darf → **„Nominierung Einrichtung / Gremium“**
+
+Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur bestimmte Personen nominieren dürfen, wird **„Eigenbewerbung und Nominierung“** verwendet.
+
+---
+
+### Laufzeit eines Preises
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 16 |
+| **Name**         | laufzeit_beginn |
+| **Definition**   | Gibt das Jahr an, in dem der Preis erstmals verliehen wurde. |
+| **Entitätentyp** | Zahl |
+| **Wert**         | JJJJ |
+| **Occurence**    | 0-1 |
+
+---
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 17 |
+| **Name**         | laufzeit_ende |
+| **Definition**   | Gibt das Jahr an, in dem der Preis letztmalig verliehen wurde. |
+| **Entitätentyp** | Zahl |
+| **Wert**         | JJJJ |
+| **Occurence**    | 0-1 |
+
+---
 
 
 
