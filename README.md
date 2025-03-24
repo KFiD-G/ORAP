@@ -1,6 +1,7 @@
-<img src="https://kfid-online.de/images/layout/logo.svg" alt="KFiD-Logo" height="80">
-<br>
-<img src="https://www.dfg.de/resource/image/196780/16x9/858/483/997695aec2153bd470ba051b9c03126e/56F3A561520B4EEF676078FA8168105D/logo-blau-267.png" alt="DFG-Logo" height="80">
+<p align="left">
+  <img src="https://kfid-online.de/images/layout/logo.svg" alt="KFiD-Logo" height="80" style="vertical-align: middle;">
+  <img src="https://www.dfg.de/resource/image/196780/16x9/858/483/997695aec2153bd470ba051b9c03126e/56F3A561520B4EEF676078FA8168105D/logo-blau-267.png" alt="DFG-Logo" height="80" style="margin-left: 100px; vertical-align: super;">
+</p>
 
 ---
 
