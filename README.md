@@ -1,3 +1,9 @@
+<img src="https://kfid-online.de/images/layout/logo.svg" alt="KFiD-Logo" height="80">
+<br>
+<img src="https://www.dfg.de/resource/image/196780/16x9/858/483/997695aec2153bd470ba051b9c03126e/56F3A561520B4EEF676078FA8168105D/logo-blau-267.png" alt="DFG-Logo" height="80">
+
+---
+
 [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 
 > Das Stammdatenangebot *ORAP* steht unter der  
@@ -14,10 +20,10 @@
 Das **Offene Register für wissenschaftliche Auszeichnungen und Preise (ORAP)** ist eine zentrale, öffentlich zugängliche Datenbank, die Informationen über wissenschaftliche Preise und Auszeichnungen bereitstellt. Ziel ist es, eine verlässliche, kuratierte und qualitätsgesicherte Übersicht über relevante Preise zu schaffen und diese transparent der Forschungsgemeinschaft sowie weiteren interessierten Akteuren zugänglich zu machen.
 
 ### **Warum wurde ORAP entwickelt?**
-Zur Unterstützung der Datenverarbeitung in Hochschulen und außeruniversitären Forschungseinrichtungen baut die **[Kommission für Forschungsinformationen in Deutschland (KFiD)](https://kfid-online.de/)** 
-verschiedene Angebote und Ressourcen auf. Ein besonderer Fokus liegt dabei auf sogenannten **Stammdatenangeboten**, die als verlässliche Basis für Informationsinfrastrukturen dienen.
 
-ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu wissenschaftlichen Preisen bereitzustellen. Die Geschäftsstelle der KFiD übernimmt hierbei die Kuratierung und Qualitätssicherung der Daten. Die Entwicklung und Pflege von ORAP erfolgt in enger Zusammenarbeit mit der Community, um eine nachhaltige und vertrauenswürdige Datenquelle zu schaffen.
+Zur Unterstützung der Datenverarbeitung in Hochschulen und außeruniversitären Forschungseinrichtungen baut die **[Kommission für Forschungsinformationen in Deutschland (KFiD)](https://kfid-online.de/)** verschiedene Angebote und Ressourcen auf. Ein besonderer Fokus liegt dabei auf sogenannten **Stammdatenangeboten**, die als verlässliche Basis für Informationsinfrastrukturen dienen.
+
+ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu wissenschaftlichen Preisen bereitzustellen. Die Geschäftsstelle der KFiD übernimmt hierbei die Kuratierung und Qualitätssicherung der Daten. Die Entwicklung und Pflege von ORAP erfolgt in enger Zusammenarbeit mit der Community und wird in Kooperation mit der **[Deutschen Forschungsgemeinschaft (DFG)](https://www.dfg.de/de)** bereitgestellt, um eine nachhaltige und vertrauenswürdige Datenquelle zu schaffen.
 
 ### **Welche Probleme löst ORAP?**
 - **Zentrale Sammlung & Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und gut strukturierte** Übersicht.
