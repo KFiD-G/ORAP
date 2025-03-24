@@ -17,7 +17,16 @@
    - [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)
    - [Übersetzungen des Preises](#übersetzungen_des_preises)
    - [Preisverleiher](#preisverleiher)
-   - [Kategorie des Preisverleihers](#kategorie_des_preisverleihers) 
+   - [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)
+   - [Land des Verleihers](#land-des-verleihers)
+   - [Webseite der Beschreibung](#webseite-der-beschreibung)
+   - [Gegenstand des Preises](#gegenstand-des-preises)
+   - [Art des wissenschaftlichen Preises / Art der wissenschaftlichen Auszeichnung](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)
+   - [Preis für Personen in einem frühen Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)
+   - [Dotierung eines Preises](#Dotierung-eines-Preises)
+   - [Preisgeld – Währung](#Preisgeld-/-Währung)
+   - [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)
+   - [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete) 
 
 ---
 
@@ -237,6 +246,294 @@ Liegen mehrere Preisverleiher vor, erfolgt die Aufnahme der Kategorien in der Re
 Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 
 ---
+
+### Land des Verleihers
+
+| Attribut            | Wert                                                   |
+|---------------------|--------------------------------------------------------|
+| **Element ID**      | 4c                                                     |
+| **Name**            | land_verleiher                                         |
+| **Abhängiges Feld** | preisverleiher                                         |
+| **Definition**      | Land, in dem der Verleiher des Preises ansässig ist oder seinen Hauptsitz hat. |
+| **Entitätentyp**    | Kontrollierte Liste (extern)                           |
+| **Wert**            | Ländercode nach ISO-3166-2 (ALPHA-2)                   |
+| **Occurence**       | 1-n (entsprechend der Anzahl der Preisverleiher)       |
+
+**Aufnahmeregel für Element ID 4c**
+
+Das Land des Verleihers entspricht dem Land, in dem die Organisation ihren Hauptsitz hat.  
+Das Land kann in der Regel im Impressum der Website des Verleihers recherchiert werden.  
+Hat der Verleiher mehrere Standorte, wird das Land des Hauptsitzes der Organisation eingetragen.  
+Mehrere Werte werden mit Semikolon getrennt.
+
+---
+
+### Webseite der Beschreibung
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 5 |
+| **Name**         | website_preis |
+| **Definition**   | URL einer Website, die vom Preisverleiher betrieben wird und auf welcher der Preis beschrieben ist. |
+| **Entitätentyp** | Freitext |
+| **Wert**         | URL der Subdomain, des Ordners oder der Website, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
+| **Occurence**    | 1 |
+
+**Aufnahmeregel für Element ID 5**
+
+**Vollständige URL:**  
+Die URL der Website des Preises wird vollständig und inklusive aller relevanten Bestandteile (z. B. Protokoll, Domain, Subdomain, Unterordner) aufgenommen.  
+Beispiel: `https://www.nobelprize.org/prizes/chemistry/`
+
+**Preis mit eigener Domain, Subdomain oder Unterordner:**  
+Wenn der Preis eine eigene Domain, Subdomain oder einen spezifischen Unterordner hat, wird diese vollständige URL aufgenommen.  
+Beispiel: `https://www.luther-gesellschaft.de/martin-luther-preis.html`
+
+**Mehrere Webseiten:**  
+Wenn der Preis auf mehreren Webseiten beschrieben wird, wird die Hauptseite aufgenommen, die den Preis allgemein beschreibt.  
+Unterseiten, die z. B. nur Preisträger*innen oder Details auflisten, werden nicht eingetragen.  
+Beispiel:  
+✔ `https://www.luther-gesellschaft.de/martin-luther-preis.html`  
+✘ `https://www.luther-gesellschaft.de/martin-luther-preis/preistraeger.html`
+
+**Keine URL verfügbar:**  
+Ist keine spezifische URL für den Preis vorhanden, wird keine Sekundärquelle angegeben.  
+In diesem Fall bleibt das Feld leer.
+
+---
+
+### Gegenstand des Preises
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 6 |
+| **Name**         | art_flts |
+| **Definition**   | Dieses Feld kategorisiert den Gegenstand des Preises und gibt an, ob dieser für Forschung, Lehre, Transfer oder Sonstiges vergeben wurde. |
+| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Wert**         | Forschung; Lehre; Transfer; Sonstiges |
+| **Occurence**    | 1 |
+
+**Definitionen der Werte:**
+
+**Forschung:**  
+Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende oder wegweisende Forschungsergebnisse vergeben.  
+Diese Arbeiten müssen einen bedeutenden Beitrag zur Erweiterung des Wissens im jeweiligen Fachgebiet leisten.  
+Kriterien: Innovationsgrad, wissenschaftliche Qualität, Relevanz und Originalität, Publikation in anerkannten Journalen, Anerkennung durch Fachgemeinschaft.
+
+**Lehre:**  
+Ein Preis mit dem Gegenstand „Lehre“ würdigt herausragende Leistungen in der akademischen Lehre.  
+Kriterien: Innovation der Lehrmethoden, didaktische Qualität, Förderung kritischen Denkens, Studierendenrückmeldungen, Einfluss auf Lehrkultur.
+
+**Transfer:**  
+Ein Preis mit dem Gegenstand „Transfer“ würdigt die Übertragung wissenschaftlicher Erkenntnisse in Gesellschaft und Wirtschaft.  
+Kriterien: Umsetzung von Forschung in Produkte/Dienstleistungen, Wissenschaftskommunikation, Reichweite, Relevanz, Innovation, Nachhaltigkeit.
+
+**Sonstiges:**  
+Ein Preis, der keiner der Kategorien Forschung, Lehre oder Transfer eindeutig zugeordnet werden kann.  
+Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
+
+### Aufnahmeregeln für Element ID 6 und 6a
+
+**Name:** `art_flts` und `art_flts_sonstiges`
+
+- **Eindeutige Zuordnung:**  
+  Jeder Preis darf nur einer Kategorie zugeordnet werden: Forschung, Lehre, Transfer oder Sonstiges.
+
+- **Mehrfachzuordnung:**  
+  Wenn mehrere Kategorien zutreffen, wird diejenige gewählt, auf die der Preis am stärksten zutrifft.
+
+- **Unklare Zuordnung:**  
+  Ist keine eindeutige Kategorie erkennbar und deckt der Preis mehrere Bereiche ab, wird standardmäßig „Forschung“ gewählt.
+
+- **Kein Bezug zu den Hauptkategorien:**  
+  Wenn keine der drei Hauptkategorien zutrifft, wird „Sonstiges“ verwendet.  
+  Dann ist ein erläuternder Eintrag im Feld `art_flts_sonstiges` erforderlich.
+
+---
+
+### Art des wissenschaftlichen Preises / Art der wissenschaftlichen Auszeichnung
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 7 |
+| **Name**         | art_preis_ausz |
+| **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis oder um eine wissenschaftliche Auszeichnung handelt. |
+| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung |
+| **Occurence**    | 1 |
+
+**Definition der Werte:**
+
+**Wissenschaftlicher Preis:**  
+Ein wissenschaftlicher Preis zeichnet erfolgte wissenschaftliche Leistungen in den Bereichen Forschung, Lehre, Transfer oder Sonstiges aus.  
+Er ist meist mit einer Geldprämie, Urkunde oder Medaille verbunden, aber ohne weiterführende Verpflichtungen für die Preisträger*innen.  
+Auch Projektförderungen können dazugehören, sofern sie nicht an eine Bewerbung mit Projektbeschreibung geknüpft sind.
+
+**Wissenschaftliche Auszeichnung:**  
+Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.  
+Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Akademie oder Gesellschaft.  
+Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie besonders prestigeträchtig sind.
+
+---
+
+### Preis für Personen in einem frühen Karrierestadium
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 11 |
+| **Name**         | frueh_karr |
+| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler:innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressat*innenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
+| **Entitätentyp** | Binär |
+| **Wert**         | ja; nein |
+| **Occurence**    | 1 |
+
+---
+
+### Dotierung eines Preises
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 12 |
+| **Name**         | preisgeld |
+| **Definition**   | Angabe zur Höhe des Preisgeldes |
+| **Entitätentyp** | Zahl größer 0 und zwei weitere festgeschriebene Werte |
+| **Wert**         | positive ganze Zahl oder „Keine Angabe“ oder „Kein Preisgeld“ |
+| **Occurence**    | 1 |
+
+#### Aufnahmeregel für Element ID 12
+
+- **Höchste Dotierung:**  
+  Es wird immer das höchste Preisgeld eingetragen, auch wenn es für weitere Plätze geringere Dotierungen gibt.  
+  Besteht der Preis aus mehreren Kategorien mit verschiedenen Dotierungen, wird die höchste aufgenommen. In diesem Fall wird im Feld `preisgeld_zusatz` der Zusatz „bis zu“ ergänzt.
+
+- **Kein Preisgeld:**  
+  Wird explizit kein Preisgeld vergeben oder nur eine symbolische Anerkennung (z. B. Urkunde, Medaille), wird „Kein Preisgeld“ eingetragen.
+
+- **Fehlende Angaben:**  
+  Wenn keine Information zur Dotierung vorliegt, wird „Keine Angabe“ eingetragen.
+
+- **Nur Preisgeld erfassen:**  
+  Nur die Höhe des Preisgeldes wird erfasst. Weitere finanzielle Leistungen (z. B. Reisekosten, Pauschalen) werden **nicht** mitgerechnet.  
+  Diese können im Feld `preisgeld_zusatz` dokumentiert werden, z. B.:  
+  `Reisekostenzuschuss; Druckkostenzuschuss`
+
+---
+
+### Preisgeld – Währung
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 12a |
+| **Name**         | preisgeld_waehrung |
+| **Abhängiges Feld** | preisgeld |
+| **Definition**   | Währung des Landes, in welchem der Preis vergeben wird. |
+| **Entitätentyp** | Kontrollierte Liste (extern) |
+| **Wert**         | Währungsangabe nach ISO 4217:2015 (z. B. USD für US-Dollar), „Keine Angabe“, „Kein Preisgeld“ |
+| **Occurence**    | 1 |
+
+---
+
+### Einschränkungen bezüglich der Wirkungsstätte
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 13 |
+| **Name**         | einschraenkung_wirkungsstaette |
+| **Definition**   | Gibt an, ob bei der Vergabe eines Preises Einschränkungen hinsichtlich der Ansässigkeit oder Wirkungsstätte bestehen. |
+| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Wert**         | Einrichtungs- oder organisationsgebunden; DACH; International; Keine Einschränkung; Sonstiges; Keine Angabe |
+| **Occurence**    | 1 |
+
+**Definitionen der Werte:**
+
+- **Einrichtungs- oder organisationsgebunden:**  
+  Der Preis ist nur für Personen vorgesehen, die einer bestimmten Einrichtung oder Organisation angehören.
+
+- **DACH:**  
+  Der Preis richtet sich an Personen in Deutschland, Österreich und/oder der Schweiz.
+
+- **International:**  
+  Der Preis ist für Personen in bestimmten Ländern oder Regionen vorgesehen. Mehrere Länder können genannt werden.
+
+- **Keine Einschränkung:**  
+  Es gibt keine geografischen Einschränkungen.
+
+- **Sonstiges:**  
+  Es liegt eine andere Form der Einschränkung vor.
+
+- **Keine Angabe:**  
+  Es liegen keine Angaben zur Einschränkung vor.
+
+---
+
+### Einschränkungen – geografische Gebiete
+
+| Attribut         | Wert |
+|------------------|------|
+| **Element ID**   | 13.1 |
+| **Name**         | einschraenkung_wirkungsstaette_gebiet |
+| **Definition**   | Länder, Regionen oder Orte, in denen die Wirkungsstätte liegen muss. |
+| **Entitätentyp** | Freitext |
+| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland, Bayern, München“ |
+| **Occurence**    | 1 |
+
+#### Aufnahmeregeln für Element ID 13 und 13.1
+
+- **Hierarchie geografischer Angaben:**  
+  Vom Großen zum Kleinen getrennt durch Kommas.  
+  Beispiel: `Deutschland, Hessen, Frankfurt`
+
+- **Gleichrangige Einträge:**  
+  Mit Semikolon trennen.  
+  Beispiel: `Deutschland; Frankreich; Irland`
+
+- **Mehrere geografische Bezüge:**  
+  In neuen Zeilen, jeweils mit vollständiger Hierarchie.  
+  Beispiel:
+  ```
+  Deutschland, Hessen, Frankfurt  
+  Deutschland, Brandenburg, Potsdam
+  ```
+
+- **Sonderbegriffe:**  
+  Begrifflichkeiten wie „Schwellenländer“, „globale Südregionen“ etc. können direkt eingetragen werden.
+
+**Besonderheiten bei „Einrichtungs- oder organisationsgebunden“:**
+
+Wenn dieser Wert gewählt wird, muss zusätzlich das Feld `einschraenkung_wirkungsstaette_selbstbezeichnung` ausgefüllt werden.
+
+Beispiele:
+
+1. **Gebunden an spezifische Einrichtung in einem Gebiet:**  
+   - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland, Baden-Württemberg, Freiburg`  
+   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: `Universität Freiburg`
+
+2. **Gebunden an eine Organisation ohne geografische Einschränkung:**  
+   - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
+   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
+
+3. **Gebunden an internationale Mitgliedschaft:**  
+   - `einschraenkung_wirkungsstaette_gebiet`: `international`  
+   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
+
+Alle Angaben müssen logisch zusammenpassen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
