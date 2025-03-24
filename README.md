@@ -48,8 +48,8 @@ Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
 ### **Wie kann man die Daten herunterladen?**
 Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar:  
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, UTF-8, Version 1.2025)](https://docs.google.com/spreadsheets/d/1Rf1n0SsCdKeO2lEypYQcPSX25NXSk9Fb6yEw9um034g/export?format=csv)**  
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.2025)](https://docs.google.com/spreadsheets/d/1Rf1n0SsCdKeO2lEypYQcPSX25NXSk9Fb6yEw9um034g/export?format=xlsx)**
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, UTF-8, Version 1.2025)](LINK)**  
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.2025)](LINK)**
 
 ### **Lizenzierung**
 Die Wahl der Lizenz erfolgte in Abstimmung mit externen Expertinnen. ORAP wird unter der **CC0-Lizenz** veröffentlicht.
