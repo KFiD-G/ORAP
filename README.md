@@ -47,7 +47,8 @@ Einige der wichtigsten Metadatenfelder in ORAP sind:
 - **Wikidata-IDs zur besseren Vernetzung**
 
 Eine vollständige Liste aller Metadatenfelder finden Sie hier:  
-- **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](LINK)**
+- **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](Metadatenschema.md)**
+
 
 ## Format der Liste
 
