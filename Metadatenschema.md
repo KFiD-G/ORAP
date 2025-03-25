@@ -217,7 +217,10 @@ Organisationen, die primär aus dem Bereich der Wissenschaft und Forschung stamm
 - Forschungsinstitute (z. B. Max-Planck-Institute, Fraunhofer-Institute)
 - Forschungsförderungsorganisationen (z. B. Deutsche Forschungsgemeinschaft)
 - Stiftungen mit Fokus auf Wissenschaft (z. B. Alexander von Humboldt-Stiftung)
-- Wissenschaftsverlage und Fachzeitschriften (z. B. Springer Nature)
+- Wissenschaftsverlage und Fachzeitschriften (z. B. Springer Nature) 
+
+**Wert:** wissenschaftlicher Sektor  
+> *Kommentar Güdler:* Hier hatten wir m.W. besprochen, dass das wirtschaftlicher Sektor (Verlage) ist?
 
 #### Wirtschaftlicher Sektor
 Organisationen der Privatwirtschaft mit dem Ziel wirtschaftlichen Erfolgs und der Förderung unternehmerischer Interessen:
