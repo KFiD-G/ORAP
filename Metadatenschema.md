@@ -11,8 +11,6 @@
 2. [Kurzüberblick](#kurzüberblick)
 3. [Informationen über jedes Element im Metadatenschema](#informationen-über-jedes-element-im-metadatenschema)
 4. [Die einzelnen Felder im Metadatenschema](#die-einzelnen-felder-im-metadatenschema)  
-   - [Nominierung](#Nominierung)
-   - [Laufzeit eines Preises](#Laufzeit-eines-Preises) 
 
 ---
 
