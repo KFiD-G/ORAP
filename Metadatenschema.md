@@ -7,11 +7,11 @@
 
 ## Einleitung
 Dieses Dokument beschreibt die Metadatenfelder für wissenschaftliche Preise und Auszeichnungen sowie deren Definitionen.  
-Das Schema bildet die Grundlage für eine einheitliche Erfassung, Verwaltung und Nutzung von Informationen zu Forschungspreisen.
+Das Schema bildet die Grundlage für eine einheitliche Erfassung, Verwaltung und Nutzung von Informationen zu Preisen.
 
-Es kann genutzt werden, um Forschungspreise systematisch zu erfassen, zu kategorisieren und gezielt zu recherchieren. Darüber hinaus ermöglicht es eine einheitliche Darstellung und erleichtert die Weiterverarbeitung der Daten in unterschiedlichen Kontexten.
+Es kann genutzt werden, um Preise systematisch zu erfassen, zu kategorisieren und gezielt zu recherchieren. Darüber hinaus ermöglicht es eine einheitliche Darstellung und erleichtert die Weiterverarbeitung der Daten in unterschiedlichen Kontexten.
 
-Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Forschungspreisen zugeschnitten sind.
+Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
 
 ---
 
