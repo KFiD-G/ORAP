@@ -160,7 +160,7 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 
 ### Preisverleiher
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 4 |
 | **Name**         | preisverleiher |
@@ -182,7 +182,7 @@ Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
 
 ### Kategorie des Preisverleihers
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 4a |
 | **Name**         | preisverleiher_kat |
@@ -235,7 +235,7 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 
 ### Land des Verleihers
 
-| Attribut            | Wert                                                   |
+| Information            | Beschreibung                                                   |
 |---------------------|--------------------------------------------------------|
 | **Element ID**      | 4c                                                     |
 | **Name**            | land_verleiher                                         |
@@ -256,7 +256,7 @@ Mehrere Werte werden mit Semikolon getrennt.
 
 ### Webseite der Beschreibung
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 5 |
 | **Name**         | website_preis |
@@ -290,7 +290,7 @@ In diesem Fall bleibt das Feld leer.
 
 ### Gegenstand des Preises
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 6 |
 | **Name**         | art_flts |
@@ -339,7 +339,7 @@ Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
 
 ### Art des wissenschaftlichen Preises / Art der wissenschaftlichen Auszeichnung
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 7 |
 | **Name**         | art_preis_ausz |
@@ -364,7 +364,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 ### Preis für Personen in einem frühen Karrierestadium
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 11 |
 | **Name**         | frueh_karr |
@@ -377,7 +377,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 ### Dotierung eines Preises
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 12 |
 | **Name**         | preisgeld |
@@ -407,7 +407,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 ### Preisgeld – Währung
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 12a |
 | **Name**         | preisgeld_waehrung |
@@ -421,7 +421,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 ### Einschränkungen bezüglich der Wirkungsstätte
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 13 |
 | **Name**         | einschraenkung_wirkungsstaette |
@@ -454,7 +454,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 ### Einschränkungen – geografische Gebiete
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 13.1 |
 | **Name**         | einschraenkung_wirkungsstaette_gebiet |
@@ -512,7 +512,7 @@ Wenn dieses Kriterium ausgewählt wird, ist zusätzlich das Feld `einschraenkung
 
 ### Nominierung
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 15 |
 | **Name**         | nominierung |
@@ -556,7 +556,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 
 ### Laufzeit eines Preises
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 16 |
 | **Name**         | laufzeit_beginn |
@@ -567,7 +567,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 
 ---
 
-| Attribut         | Wert |
+| Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 17 |
 | **Name**         | laufzeit_ende |
