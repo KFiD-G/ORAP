@@ -41,7 +41,6 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 | 6    | [art_flts](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        | 1         | Kontrollierte Liste (intern) |
 | 7    | [art_preis_ausz](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                  | 1         | Kontrollierte Liste (intern) |
 | 11   | [frueh_karr](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
-| 11a  | frueh_karr_zusatz               | 1-4       | Kontrollierte Liste (intern) |
 | 12   | [preisgeld](#Dotierung-eines-Preises)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
 | 12a  | [preisgeld_waehrung](#Dotierung-eines-Preises)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
 | 13   | [einschraenkung_wirkungsstaette](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste (intern) |
