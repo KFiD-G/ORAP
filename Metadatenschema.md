@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Offenes Register für Auszeichnungen und Preise (ORAP)
 
 ## Metadatenschema  
@@ -15,7 +14,7 @@ Es kann genutzt werden, um Preise systematisch zu erfassen, zu kategorisieren un
 Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
 
 ---
-
+<a name="top"></a>
 ## Kurzüberblick
 
 | ID   | Name                           | Occurrence | Entitätentyp |
