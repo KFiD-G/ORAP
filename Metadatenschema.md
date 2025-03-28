@@ -11,22 +11,6 @@
 2. [Kurzüberblick](#kurzüberblick)
 3. [Informationen über jedes Element im Metadatenschema](#informationen-über-jedes-element-im-metadatenschema)
 4. [Die einzelnen Felder im Metadatenschema](#die-einzelnen-felder-im-metadatenschema)  
-   - [Identifier](#identifier)
-   - [Wikidata Identifier](#wikidata-identifier)
-   - [Bezeichnung des Preises](#bezeichnung-des-preises)
-   - [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)
-   - [Übersetzungen des Preises](#übersetzungen_des_preises)
-   - [Preisverleiher](#preisverleiher)
-   - [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)
-   - [Land des Verleihers](#land-des-verleihers)
-   - [Webseite der Beschreibung](#webseite-der-beschreibung)
-   - [Gegenstand des Preises](#gegenstand-des-preises)
-   - [Art des wissenschaftlichen Preises / Art der wissenschaftlichen Auszeichnung](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)
-   - [Preis für Personen in einem frühen Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)
-   - [Dotierung eines Preises](#Dotierung-eines-Preises)
-   - [Preisgeld – Währung](#Preisgeld-/-Währung)
-   - [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)
-   - [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete)
    - [Nominierung](#Nominierung)
    - [Laufzeit eines Preises](#Laufzeit-eines-Preises) 
 
@@ -47,21 +31,21 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 | ID   | Name                           | Attribut | Occurrence | Entitätentyp |
 |------|--------------------------------|----------|-----------|--------------|
 | 1    | [kf_prize_id](#identifier)                    |          | 1         | Identifier   |
-| 2    | wikidata_id                     |          | 0-1       | Identifier   |
-| 3    | label_sprache_original          |          | 1         | Freitext     |
-| 3a   | label_sprache_original_code     | ja       | 1         | Kontrollierte Liste (extern) |
-| 4    | preisverleiher                  |          | 1-n       | Freitext     |
-| 4a   | preisverleiher_kat              | ja       | 1-n       | Kontrollierte Liste (intern) |
-| 4c   | land_verleiher                  | ja       | 1-n       | Kontrollierte Liste (extern) |
-| 5    | website_preis                   |          | 1         | Freitext     |
-| 6    | art_flts                        |          | 1         | Kontrollierte Liste (intern) |
-| 7    | art_preis_ausz                  |          | 1         | Kontrollierte Liste (intern) |
-| 11   | frueh_karr                      |          | 1         | Binär: ja; nein |
+| 2    | [wikidata_id](#wikidata-identifier)                     |          | 0-1       | Identifier   |
+| 3    | [label_sprache_original](#bezeichnung-des-preises)          |          | 1         | Freitext     |
+| 3a   | [label_sprache_original_code](#sprache-der-preisbezeichnung)     | ja       | 1         | Kontrollierte Liste (extern) |
+| 4    | [preisverleiher](#preisverleiher)                  |          | 1-n       | Freitext     |
+| 4a   | [preisverleiher_kat](#kategorie-des-preisverleihers)              | ja       | 1-n       | Kontrollierte Liste (intern) |
+| 4c   | [land_verleiher](#land-des-verleihers)                  | ja       | 1-n       | Kontrollierte Liste (extern) |
+| 5    | [website_preis](#webseite-der-beschreibung)                   |          | 1         | Freitext     |
+| 6    | [art_flts](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        |          | 1         | Kontrollierte Liste (intern) |
+| 7    | [art_preis_ausz](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                  |          | 1         | Kontrollierte Liste (intern) |
+| 11   | [frueh_karr](#preis-für-personen-in-einem-frühen-karrierestadium)                      |          | 1         | Binär: ja; nein |
 | 11a  | frueh_karr_zusatz               | ja       | 1-4       | Kontrollierte Liste (intern) |
-| 12   | preisgeld                       |          | 1         | Zahl; Keine Angabe; Kein Preisgeld |
-| 12a  | preisgeld_waehrung              | ja       | 1         | Kontrollierte Liste (extern): ISO 4217 |
-| 13   | einschraenkung_wirkungsstaette  |          | 1         | Kontrollierte Liste (intern) |
-| 13.1 | einschraenkung_wirkungsstaette_gebiet |    | 1         | Kontrollierte Liste (extern) |
+| 12   | [preisgeld](#Dotierung-eines-Preises)                       |          | 1         | Zahl; Keine Angabe; Kein Preisgeld |
+| 12a  | [preisgeld_waehrung](#Dotierung-eines-Preises)              | ja       | 1         | Kontrollierte Liste (extern): ISO 4217 |
+| 13   | [einschraenkung_wirkungsstaette](#Einschränkungen-bezüglich-der-Wirkungsstätte)  |          | 1         | Kontrollierte Liste (intern) |
+| 13.1 | [einschraenkung_wirkungsstaette_gebiet](#Einschränkungen-/-geografische-Gebiete) |    | 1         | Kontrollierte Liste (extern) |
 
 ---
 
