@@ -1,4 +1,4 @@
-# Offenes Register für wissenschaftliche Auszeichnungen und Preise (ORAP)
+# Offenes Register für Auszeichnungen und Preise (ORAP)
 
 ## Metadatenschema  
 **Februar 2025**  
