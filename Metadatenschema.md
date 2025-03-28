@@ -3,15 +3,6 @@
 ## Metadatenschema  
 **Februar 2025**  
  
-
----
-
-## Inhaltsverzeichnis
-1. [Einleitung](#einleitung)
-2. [Kurzüberblick](#kurzüberblick)
-3. [Informationen über jedes Element im Metadatenschema](#informationen-über-jedes-element-im-metadatenschema)
-4. [Die einzelnen Felder im Metadatenschema](#die-einzelnen-felder-im-metadatenschema)  
-
 ---
 
 ## Einleitung
