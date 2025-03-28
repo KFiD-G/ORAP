@@ -46,7 +46,7 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 
 | ID   | Name                           | Attribut | Occurrence | Entitätentyp |
 |------|--------------------------------|----------|-----------|--------------|
-| 1    | kf_prize_id                    |          | 1         | Identifier   |
+| 1    | [kf_prize_id](#identifier)                    |          | 1         | Identifier   |
 | 2    | wikidata_id                     |          | 0-1       | Identifier   |
 | 3    | label_sprache_original          |          | 1         | Freitext     |
 | 3a   | label_sprache_original_code     | ja       | 1         | Kontrollierte Liste (extern) |
