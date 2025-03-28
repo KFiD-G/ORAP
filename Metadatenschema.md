@@ -28,24 +28,27 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 
 ## Kurzüberblick
 
-| ID   | Name                           | Attribut | Occurrence | Entitätentyp |
-|------|--------------------------------|----------|-----------|--------------|
-| 1    | [kf_prize_id](#identifier)                    |          | 1         | Identifier   |
-| 2    | [wikidata_id](#wikidata-identifier)                     |          | 0-1       | Identifier   |
-| 3    | [label_sprache_original](#bezeichnung-des-preises)          |          | 1         | Freitext     |
-| 3a   | [label_sprache_original_code](#sprache-der-preisbezeichnung)     | ja       | 1         | Kontrollierte Liste (extern) |
-| 4    | [preisverleiher](#preisverleiher)                  |          | 1-n       | Freitext     |
-| 4a   | [preisverleiher_kat](#kategorie-des-preisverleihers)              | ja       | 1-n       | Kontrollierte Liste (intern) |
-| 4c   | [land_verleiher](#land-des-verleihers)                  | ja       | 1-n       | Kontrollierte Liste (extern) |
-| 5    | [website_preis](#webseite-der-beschreibung)                   |          | 1         | Freitext     |
-| 6    | [art_flts](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        |          | 1         | Kontrollierte Liste (intern) |
-| 7    | [art_preis_ausz](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                  |          | 1         | Kontrollierte Liste (intern) |
-| 11   | [frueh_karr](#preis-für-personen-in-einem-frühen-karrierestadium)                      |          | 1         | Binär: ja; nein |
-| 11a  | frueh_karr_zusatz               | ja       | 1-4       | Kontrollierte Liste (intern) |
-| 12   | [preisgeld](#Dotierung-eines-Preises)                       |          | 1         | Zahl; Keine Angabe; Kein Preisgeld |
-| 12a  | [preisgeld_waehrung](#Dotierung-eines-Preises)              | ja       | 1         | Kontrollierte Liste (extern): ISO 4217 |
-| 13   | [einschraenkung_wirkungsstaette](#Einschränkungen-bezüglich-der-Wirkungsstätte)  |          | 1         | Kontrollierte Liste (intern) |
-| 13.1 | [einschraenkung_wirkungsstaette_gebiet](#Einschränkungen-/-geografische-Gebiete) |    | 1         | Kontrollierte Liste (extern) |
+| ID   | Name                           | Occurrence | Entitätentyp |
+|------|--------------------------------|-----------|--------------|
+| 1    | [kf_prize_id](#identifier)                    | 1         | Identifier   |
+| 2    | [wikidata_id](#wikidata-identifier)                     | 0-1       | Identifier   |
+| 3    | [label_sprache_original](#bezeichnung-des-preises)          | 1         | Freitext     |
+| 3a   | [label_sprache_original_code](#sprache-der-preisbezeichnung)     | 1         | Kontrollierte Liste (extern) |
+| 4    | [preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
+| 4a   | [preisverleiher_kat](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste (intern) |
+| 4c   | [land_verleiher](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
+| 5    | [website_preis](#webseite-der-beschreibung)                   | 1         | Freitext     |
+| 6    | [art_flts](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        | 1         | Kontrollierte Liste (intern) |
+| 7    | [art_preis_ausz](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                  | 1         | Kontrollierte Liste (intern) |
+| 11   | [frueh_karr](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
+| 11a  | frueh_karr_zusatz               | 1-4       | Kontrollierte Liste (intern) |
+| 12   | [preisgeld](#Dotierung-eines-Preises)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
+| 12a  | [preisgeld_waehrung](#Dotierung-eines-Preises)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
+| 13   | [einschraenkung_wirkungsstaette](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste (intern) |
+| 13.1 | [einschraenkung_wirkungsstaette_gebiet](#Einschränkungen-/-geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
+| 15 | [nominierung](#nominierung) | 0-1         | Kontrollierte List (intern) |
+| 16 | [laufzeit_beginn](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
+| 17 | [laufzeit_ende](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 
 ---
 
