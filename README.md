@@ -1,6 +1,6 @@
 <p align="left">
-  <img src="https://kfid-online.de/images/layout/logo.svg" alt="KFiD-Logo" height="80" style="vertical-align: middle;">
-  <img src="https://www.dfg.de/resource/image/196780/16x9/858/483/997695aec2153bd470ba051b9c03126e/56F3A561520B4EEF676078FA8168105D/logo-blau-267.png" alt="DFG-Logo" height="100" style="vertical-align: middle; margin-left: 60px; margin-top: 12px;">
+  <img src="https://kfid-online.de/images/layout/logo.svg" alt="KFiD-Logo" height="105">
+  <img src="https://www.dfg.de/resource/image/196780/16x9/858/483/997695aec2153bd470ba051b9c03126e/56F3A561520B4EEF676078FA8168105D/logo-blau-267.png" alt="DFG-Logo" height="140">
 </p>
 
 ---
@@ -60,22 +60,27 @@ Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links ve
 ### **Lizenzierung**
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
-## **Roadmap: Geplante Weiterentwicklungen**
-
-### **ORAP-Community-Austausch ###
-
-## **Wie kann man sich beteiligen?**
+## **Mitmachen**
 Die community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
 
 ### **Meldung neuer Preise**
 Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
 **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
-### **Aktualisierungen und Fehlermeldungen**
+### **Pflege**
 Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Fehler bzw. Aktualisierungsbedarfe hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular(LINK)** verwenden.
 
-### **Massenmeldungen**
+### **Datenspende**
 Betreiben Sie an Ihrer Einrichtung bereits ein Forschungsinformationssystem mit vielen Preisen und Auszeichnungen? Wenn Sie Ihre Sammlung in ORAP einspeisen möchten, kontaktieren Sie uns unter **[orap@kfid-online.de](mailto:orap@kfid-online.de)**.
+
+### ORAP-Community-Austausch ###
+Um die community zu stärken und zu vernetzen, werden virtuelle Austauschtermine stattfinden. Auf diesem Wege kann die Weiterentwicklung von ORAP diskutiert werden.
+
+## **Roadmap: Geplante Weiterentwicklungen**
+- Zuordnung der Preise zu Fächern oder Wissenschaftsgebiete
+- Wikidata-IDs für Preisverleiher
+- Übersetzungen oder alternative Namen für Preisverleiher
+- Provinenz der Listeneinträge
 
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
