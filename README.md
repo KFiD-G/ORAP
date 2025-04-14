@@ -9,19 +9,19 @@
 
 # ORAP – Offenes Register für Auszeichnungen und Preise
 
-**ORAP ist ein community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!**
+**ORAP ist ein Community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!**
 
 ### **Was ist ORAP?**
-Das **Offene Register für Auszeichnungen und Preise (ORAP)** ist ein zentrales, öffentlich zugängliches Angebot, das qualitätsgesicherte Metadaten über wissenschaftliche Preise und Auszeichnungen bereitstellt. Ziel ist es, eine verlässliche und kuratierte Liste von Preisen und Auszeichnungen anzubieten und diese gemeinsam mit der community laufend zu aktualisieren und zu erweitern.
+Das **Offene Register für Auszeichnungen und Preise (ORAP)** ist ein zentrales, öffentlich zugängliches Angebot, das qualitätsgesicherte Metadaten über wissenschaftliche Preise und Auszeichnungen bereitstellt. Ziel ist es, eine verlässliche und kuratierte Liste von Preisen und Auszeichnungen anzubieten und diese gemeinsam mit der Community laufend zu aktualisieren und zu erweitern.
 
 ### **Warum wurde ORAP entwickelt?**
 
 Zur Unterstützung der Datenverarbeitung in Hochschulen und außeruniversitären Forschungseinrichtungen baut die **[Kommission für Forschungsinformationen in Deutschland (KFiD)](https://kfid-online.de/)** verschiedene Angebote und Ressourcen auf. Ein besonderer Fokus liegt dabei auf sogenannten **Stammdatenangeboten**, die als verlässliche Basis für Informationsinfrastrukturen dienen.
 
-ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu wissenschaftlichen Preisen bereitzustellen. Die Geschäftsstelle der KFiD übernimmt hierbei die Kuratierung und Qualitätssicherung der Daten. Die Entwicklung und Pflege von ORAP erfolgt in enger Zusammenarbeit mit der community und wird in Kooperation mit der **[Deutschen Forschungsgemeinschaft (DFG)](https://www.dfg.de/de)** bereitgestellt, um eine nachhaltige und vertrauenswürdige Datenquelle zu schaffen.
+ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu wissenschaftlichen Preisen bereitzustellen. Die Geschäftsstelle der KFiD übernimmt hierbei die Kuratierung und Qualitätssicherung der Daten. Die Entwicklung und Pflege von ORAP erfolgt in enger Zusammenarbeit mit der Community und wird in Kooperation mit der **[Deutschen Forschungsgemeinschaft (DFG)](https://www.dfg.de/de)** bereitgestellt, um eine nachhaltige und vertrauenswürdige Datenquelle zu schaffen.
 
 ### **Welche Probleme löst ORAP?**
-- **Zentrale Sammlung & Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und gut strukturierte** Sammlung.
+- **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und gut strukturierte** Sammlung.
 - **Qualitätsgesicherte Metadaten**: Die enthaltenen Preise werden überprüft und mit **standardisierten Metadaten** versehen, um eine **bessere Nachnutzbarkeit** zu gewährleisten.
 - **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Daten helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
 
@@ -52,7 +52,7 @@ Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
 ## **Nutzung**
 
-### **Wie kann man die Daten herunterladen?**
+### **Wie können die Daten heruntergeladen werden?**
 Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar:  
 - **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, UTF-8, Version 1.2025)](LINK)**  
 - **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.2025)](LINK)**
@@ -61,26 +61,26 @@ Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links ve
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
 ## **Mitmachen**
-Die community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
+Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
 
 ### **Meldung neuer Preise**
 Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
 **[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
 
 ### **Pflege**
-Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Fehler bzw. Aktualisierungsbedarfe hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular(LINK)** verwenden.
+Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Korrekturbedarf hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular (LINK)** verwenden.
 
 ### **Datenspende**
 Betreiben Sie an Ihrer Einrichtung bereits ein Forschungsinformationssystem mit vielen Preisen und Auszeichnungen? Wenn Sie Ihre Sammlung in ORAP einspeisen möchten, kontaktieren Sie uns unter **[orap@kfid-online.de](mailto:orap@kfid-online.de)**.
 
 ### ORAP-Community-Austausch ###
-Um die community zu stärken und zu vernetzen, werden virtuelle Austauschtermine stattfinden. Auf diesem Wege kann die Weiterentwicklung von ORAP diskutiert werden.
+Um die Community zu stärken und zu vernetzen, werden virtuelle Austauschtermine stattfinden. Auf diesem Wege kann die Weiterentwicklung von ORAP diskutiert werden.
 
 ## **Roadmap: Geplante Weiterentwicklungen**
 - Zuordnung der Preise zu Fächern oder Wissenschaftsgebiete
 - Wikidata-IDs für Preisverleiher
 - Übersetzungen oder alternative Namen für Preisverleiher
-- Provinenz der Listeneinträge
+- Provenienz der Listeneinträge
 
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
