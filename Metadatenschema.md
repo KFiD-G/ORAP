@@ -483,25 +483,19 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 - **Keine Angabe vorhanden:**  
   Wenn keine geografische Einschränkung bekannt ist, wird „Keine Angabe“ eingetragen.
 
-#### Besondere Hinweise bei „Einrichtungs- oder organisationsgebunden“
-
-Wenn dieses Kriterium ausgewählt wird, ist zusätzlich das Feld `einschraenkung_wirkungsstaette_selbstbezeichnung` verpflichtend auszufüllen.
 
 #### Mögliche Fälle:
 
 1. **Gebunden an eine konkrete Einrichtung in einem bestimmten Ort:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland, Baden-Württemberg, Freiburg`  
-   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: `Universität Freiburg`
 
 2. **Gebunden an eine Organisation, aber ohne geografische Einschränkung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
-   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
 
 3. **Gebunden an internationale Mitgliedschaft mit weltweiter Bewerbung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `international`  
-   - `einschraenkung_wirkungsstaette_selbstbezeichnung`: Name der Organisation
 
-> 🔎 Die Angaben in den Feldern `einschraenkung_wirkungsstaette`, `einschraenkung_wirkungsstaette_gebiet` und `einschraenkung_wirkungsstaette_selbstbezeichnung` müssen logisch und nachvollziehbar zusammenpassen.
+> 🔎 Die Angaben in den Feldern `einschraenkung_wirkungsstaette` und `einschraenkung_wirkungsstaette_gebiet` müssen logisch und nachvollziehbar zusammenpassen.
 
 ---
 
