@@ -89,6 +89,8 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 - Falls vorhanden, wird der **Wikidata-Identifier übernommen**.  
 - [Wikidata Identifier-Referenz](https://www.wikidata.org/wiki/Wikidata:Identifiers)  
 
+[🔝](#top)
+
 ---
 
 ### Bezeichnung des Preises
@@ -105,6 +107,8 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
 Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
+
+[🔝](#top)
 
 ---
 
@@ -123,6 +127,8 @@ Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme 
 #### **Aufnahmeregel für Element ID 3a**
 **Name: label_sprache_original_code**   
 Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
+
+[🔝](#top)
 
 ---
 
@@ -147,6 +153,8 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 | **Wert**        | Freitext |
 | **Occurence**   | 0-1 |
 
+[🔝](#top)
+
 #### **Aufnahmeregel für Element ID 3.1 und 3.2**
 **Name: label_uebersetzung_en; label_uebersetzung_de**  
 Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung auf Deutsch, wird zusätzlich eine englische Übersetzung eingetragen. Ist die Originalbezeichnung auf Englisch, wird zusätzlich eine deutsche Übersetzung eingetragen. Ist die Originalbezeichnung weder auf Deutsch noch auf Englisch, werden sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Aufnahme der Übersetzungen wird den offiziellen Webseiten entnommen. Falls dort keine Übersetzung verfügbar ist, bleiben die entsprechenden Felder leer.
@@ -163,6 +171,8 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 | **Entitätentyp** | Freitext |
 | **Wert**         | Freitext |
 | **Occurence**    | 1-n |
+
+[🔝](#top)
 
 **Aufnahmeregel für Element ID 4**  
 **Name: `preisverleiher`**  
@@ -185,6 +195,8 @@ Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
 | **Entitätentyp** | Kontrollierte Liste (intern) |
 | **Wert**         | wissenschaftlicher Sektor, wirtschaftlicher Sektor, öffentlicher Sektor, Stiftungen, Sonstige |
 | **Occurence**    | 1-n (entsprechend der Anzahl der Preisverleiher) |
+
+[🔝](#top)
 
 **Definitionen der Kategorien:**
 
@@ -240,6 +252,8 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 | **Wert**            | Ländercode nach ISO-3166-2 (ALPHA-2)                   |
 | **Occurence**       | 1-n (entsprechend der Anzahl der Preisverleiher)       |
 
+[🔝](#top)
+
 **Aufnahmeregel für Element ID 4c**
 
 Das Land des Verleihers entspricht dem Land, in dem die Organisation ihren Hauptsitz hat.  
@@ -259,6 +273,8 @@ Mehrere Werte werden mit Semikolon getrennt.
 | **Entitätentyp** | Freitext |
 | **Wert**         | URL der Subdomain, des Ordners oder der Website, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
 | **Occurence**    | 1 |
+
+[🔝](#top)
 
 **Aufnahmeregel für Element ID 5**
 
@@ -293,6 +309,8 @@ In diesem Fall bleibt das Feld leer.
 | **Entitätentyp** | Kontrollierte Liste (intern) |
 | **Wert**         | Forschung; Lehre; Transfer; Sonstiges |
 | **Occurence**    | 1 |
+
+[🔝](#top)
 
 **Definitionen der Werte:**
 
@@ -343,6 +361,8 @@ Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
 | **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung |
 | **Occurence**    | 1 |
 
+[🔝](#top)
+
 **Definition der Werte:**
 
 **Wissenschaftlicher Preis:**  
@@ -368,6 +388,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Wert**         | ja; nein |
 | **Occurence**    | 1 |
 
+[🔝](#top)
+
 ---
 
 ### Dotierung eines Preises
@@ -380,6 +402,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Entitätentyp** | Zahl größer 0 und zwei weitere festgeschriebene Werte |
 | **Wert**         | positive ganze Zahl oder „Keine Angabe“ oder „Kein Preisgeld“ |
 | **Occurence**    | 1 |
+
+[🔝](#top)
 
 #### Aufnahmeregel für Element ID 12
 
@@ -412,6 +436,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Wert**         | Währungsangabe nach ISO 4217:2015 (z. B. USD für US-Dollar), „Keine Angabe“, „Kein Preisgeld“ |
 | **Occurence**    | 1 |
 
+[🔝](#top)
+
 ---
 
 ### Einschränkungen bezüglich der Wirkungsstätte
@@ -424,6 +450,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Entitätentyp** | Kontrollierte Liste (intern) |
 | **Wert**         | Einrichtungs- oder organisationsgebunden; DACH; International; Keine Einschränkung; Sonstiges; Keine Angabe |
 | **Occurence**    | 1 |
+
+[🔝](#top)
 
 **Definitionen der Werte:**
 
@@ -457,6 +485,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Entitätentyp** | Freitext |
 | **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland, Bayern, München“ |
 | **Occurence**    | 1 |
+
+[🔝](#top)
 
 #### Aufnahmeregeln für Element ID 13 und 13.1
 
@@ -510,6 +540,8 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Wert**         | Eigenbewerbung und Nominierung; Eigenbewerbung; Nominierung offen; Nominierung eingeschränkt; Nominierung Einrichtung / Gremium; Keine Angabe |
 | **Occurence**    | 1 |
 
+[🔝](#top)
+
 #### Definitionen der Werte:
 
 - **Eigenbewerbung und Nominierung**  
@@ -554,6 +586,8 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 | **Wert**         | JJJJ |
 | **Occurence**    | 0-1 |
 
+[🔝](#top)
+
 ---
 
 | Information         | Beschreibung |
@@ -564,6 +598,8 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 | **Entitätentyp** | Zahl |
 | **Wert**         | JJJJ |
 | **Occurence**    | 0-1 |
+
+[🔝](#top)
 
 ---
 
