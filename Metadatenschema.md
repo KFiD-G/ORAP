@@ -333,7 +333,7 @@ Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
 
 ### Aufnahmeregeln für Element ID 6 und 6a
 
-**Name:** `art_flts` und `art_flts_sonstiges`
+**Name:** `art_flts`
 
 - **Eindeutige Zuordnung:**  
   Jeder Preis darf nur einer Kategorie zugeordnet werden: Forschung, Lehre, Transfer oder Sonstiges.
@@ -346,7 +346,6 @@ Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
 
 - **Kein Bezug zu den Hauptkategorien:**  
   Wenn keine der drei Hauptkategorien zutrifft, wird „Sonstiges“ verwendet.  
-  Dann ist ein erläuternder Eintrag im Feld `art_flts_sonstiges` erforderlich.
 
 ---
 
