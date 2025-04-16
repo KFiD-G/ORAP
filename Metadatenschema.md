@@ -11,7 +11,7 @@ Das Schema bildet die Grundlage für eine einheitliche Erfassung, Verwaltung und
 
 Es kann genutzt werden, um Preise systematisch zu erfassen, zu kategorisieren und gezielt zu recherchieren. Darüber hinaus ermöglicht es eine einheitliche Darstellung und erleichtert die Weiterverarbeitung der Daten in unterschiedlichen Kontexten.
 
-Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
+Das Schema umfasst **20 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
 
 ---
 <a name="top"></a>
@@ -26,17 +26,17 @@ Das Schema umfasst **16 speziell entwickelte Felder**, die auf die Anforderungen
 | 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
 | 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
-| 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste (intern) |
+| 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
-| 6    | [Gegenstand des Preises](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        | 1         | Kontrollierte Liste (intern) |
-| 7    | [Art des Preises](#Art-des-Preises-oder-der-Auszeichnung)                  | 1         | Kontrollierte Liste (intern) |
+| 6    | [Gegenstand des Preises](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        | 1         | Kontrollierte Liste |
+| 7    | [Art des Preises](#Art-des-Preises-oder-der-Auszeichnung)                  | 1         | Kontrollierte Liste |
 | 11   | [Frühes Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
 | 12   | [Preisgeld](#Dotierung-eines-Preises)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
 | 12a  | [Währung des Preisgeldes](#Dotierung-eines-Preises)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
-| 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste (intern) |
+| 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
 | 13.1 | [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
-| 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte List (intern) |
+| 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte List |
 | 16 | [Laufzeitbeginn eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 | 17 | [Laufzeitende eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 
@@ -192,7 +192,7 @@ Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
 | **Element ID**   | 4a |
 | **Name**         | preisverleiher_kat |
 | **Abhängiges Feld** | preisverleiher |
-| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | wissenschaftlicher Sektor, wirtschaftlicher Sektor, öffentlicher Sektor, Stiftungen, Sonstige |
 | **Occurence**    | 1-n (entsprechend der Anzahl der Preisverleiher) |
 
@@ -306,7 +306,7 @@ In diesem Fall bleibt das Feld leer.
 | **Element ID**   | 6 |
 | **Name**         | art_flts |
 | **Definition**   | Dieses Feld kategorisiert den Gegenstand des Preises und gibt an, ob dieser für Forschung, Lehre, Transfer oder Sonstiges vergeben wurde. |
-| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | Forschung; Lehre; Transfer; Sonstiges |
 | **Occurence**    | 1 |
 
@@ -357,7 +357,7 @@ Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
 | **Element ID**   | 7 |
 | **Name**         | art_preis_ausz |
 | **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis oder um eine wissenschaftliche Auszeichnung handelt. |
-| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung |
 | **Occurence**    | 1 |
 
@@ -447,7 +447,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Element ID**   | 13 |
 | **Name**         | einschraenkung_wirkungsstaette |
 | **Definition**   | Gibt an, ob bei der Vergabe eines Preises Einschränkungen hinsichtlich der Ansässigkeit oder Wirkungsstätte bestehen. |
-| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | Einrichtungs- oder organisationsgebunden; DACH; International; Keine Einschränkung; Sonstiges; Keine Angabe |
 | **Occurence**    | 1 |
 
@@ -536,7 +536,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 | **Element ID**   | 15 |
 | **Name**         | nominierung |
 | **Definition**   | Gibt an, ob Eigenbewerbungen möglich sind und/oder wer nominieren darf. |
-| **Entitätentyp** | Kontrollierte Liste (intern) |
+| **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | Eigenbewerbung und Nominierung; Eigenbewerbung; Nominierung offen; Nominierung eingeschränkt; Nominierung Einrichtung / Gremium; Keine Angabe |
 | **Occurence**    | 1 |
 
