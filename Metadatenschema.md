@@ -408,7 +408,7 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 - **Höchste Dotierung:**  
   Es wird immer das höchste Preisgeld eingetragen, auch wenn es für weitere Plätze geringere Dotierungen gibt.  
-  Besteht der Preis aus mehreren Kategorien mit verschiedenen Dotierungen, wird die höchste aufgenommen. In diesem Fall wird im Feld `preisgeld_zusatz` der Zusatz „bis zu“ ergänzt.
+  Besteht der Preis aus mehreren Kategorien mit verschiedenen Dotierungen, wird die höchste aufgenommen.
 
 - **Kein Preisgeld:**  
   Wird explizit kein Preisgeld vergeben oder nur eine symbolische Anerkennung (z. B. Urkunde, Medaille), wird „Kein Preisgeld“ eingetragen.
@@ -418,8 +418,6 @@ Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie be
 
 - **Nur Preisgeld erfassen:**  
   Nur die Höhe des Preisgeldes wird erfasst. Weitere finanzielle Leistungen (z. B. Reisekosten, Pauschalen) werden **nicht** mitgerechnet.  
-  Diese können im Feld `preisgeld_zusatz` dokumentiert werden, z. B.:  
-  `Reisekostenzuschuss; Druckkostenzuschuss`
 
 ---
 
