@@ -22,8 +22,11 @@ ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu
 
 ### **Welche Probleme löst ORAP?**
 - **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und gut strukturierte** Sammlung.
-- **Qualitätsgesicherte Metadaten**: Die enthaltenen Preise werden überprüft und mit **standardisierten Metadaten** versehen, um eine **bessere Nachnutzbarkeit** zu gewährleisten.
-- **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Daten helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
+- **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (kf_prize_id).
+- **Qualitätsgesicherte Metadaten**: Alle Einträge werden bei der Aufnahme überprüft und mit Metadaten versehen. 
+- **Standardisierte Metadaten**: Alle Preise und Auszeichnungen werden der Aufnahme kategorisiert, um eine **gezielte Auswahl** von Preisen und Auszeichnungen zu ermöglichen.
+- **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Informationen helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
+
 
 ### **[Metadatenfelder](Metadatenschema.md)**
 Einige der wichtigsten Metadatenfelder in ORAP sind:
