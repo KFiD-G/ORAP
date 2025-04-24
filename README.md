@@ -80,7 +80,7 @@ Betreiben Sie an Ihrer Einrichtung bereits ein Forschungsinformationssystem mit 
 Um die Community zu stärken und zu vernetzen, werden virtuelle Austauschtermine stattfinden. Auf diesem Wege kann die Weiterentwicklung von ORAP diskutiert werden.
 
 ## **Roadmap: Geplante Weiterentwicklungen**
-- Zuordnung der Preise zu Fächern oder Wissenschaftsgebiete
+- Zuordnung der Preise zu Fächergruppen
 - Wikidata-IDs für Preisverleiher
 - Übersetzungen oder alternative Namen für Preisverleiher
 - Provenienz der Listeneinträge
