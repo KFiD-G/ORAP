@@ -66,9 +66,9 @@ ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/ze
 ## **Mitmachen**
 Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
 
-### **Meldung neuer Preise**
-Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
-**[Meldung von wissenschaftlichen Preisen und Auszeichnungen](https://form-interface-5d7ffe.zapier.app/)**
+### **Meldung oder Änderung von Preisen und Auszeichnungen**
+Sie möchten einen neuen Preis melden oder eine Änderung zu einem bestehenden Eintrag vorschlagen?  
+**[Nutzen Sie dazu bitte das folgende Formular](https://form-interface-5d7ffe.zapier.app/)**
 
 ### **Pflege**
 Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Korrekturbedarf hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular (LINK)** verwenden.
