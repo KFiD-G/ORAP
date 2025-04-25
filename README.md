@@ -68,7 +68,7 @@ Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu bet
 
 ### **Meldung neuer Preise**
 Falls Sie neue Preise oder Auszeichnungen melden möchten, nutzen Sie bitte das folgende Formular:  
-**[Meldung von wissenschaftlichen Preisen und Auszeichnungen](LINK)**
+**[Meldung von wissenschaftlichen Preisen und Auszeichnungen](https://form-interface-5d7ffe.zapier.app/)**
 
 ### **Pflege**
 Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Korrekturbedarf hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular (LINK)** verwenden.
