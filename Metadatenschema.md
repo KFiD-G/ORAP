@@ -138,7 +138,7 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 |---------------------|------|
 | **Element_ID**  | 3.1  |
 | **Name**        | label_uebersetzung_en |
-| **Definition**  | Bezeichnung des Preises übersetzt in die englische Sprache, wenn Feld label_sprache_original_code nicht EN ist. |
+| **Definition**  | Bezeichnung des Preises ins Englische übersetzt, sofern die Originalsprache nicht Englisch ist. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
 | **Occurence**   | 0-1 |
@@ -148,7 +148,7 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 | **Element_ID**  | 3.2  |
 | **Name**        | label_uebersetzung_de |
 | **abhängiges Feld** | label_sprache_de |
-| **Definition**  | Bezeichnung des Preises ins Englische übersetzt, wenn Feld label_sprache_original_code nicht DE ist. |
+| **Definition**  | Bezeichnung des Preises ins Deutsche übersetzt, sofern die Originalsprache nicht Deutsch ist. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
 | **Occurence**   | 0-1 |
