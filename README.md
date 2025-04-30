@@ -22,7 +22,7 @@ ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu
 
 ### **Welche Probleme löst ORAP?**
 - **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und gut strukturierte** Sammlung.
-- **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (kf_prize_id).
+- **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (`kf_prize_id`).
 - **Qualitätsgesicherte Metadaten**: Alle Einträge werden bei der Aufnahme überprüft und mit Metadaten versehen. 
 - **Standardisierte Metadaten**: Alle Preise und Auszeichnungen werden der Aufnahme kategorisiert, um eine **gezielte Auswahl** von Preisen und Auszeichnungen zu ermöglichen.
 - **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Informationen helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
@@ -66,12 +66,12 @@ ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/ze
 ## **Mitmachen**
 Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
 
-### **Meldung oder Änderung von Preisen und Auszeichnungen**
-Sie möchten einen neuen Preis melden oder eine Änderung zu einem bestehenden Eintrag vorschlagen?  
-**[Nutzen Sie dazu bitte das folgende Formular](https://form-interface-5d7ffe.zapier.app/)**
+### **Meldung von Preisen und Auszeichnungen**
+Sie möchten einen Preis oder eine Auszeichnung zur Aufnahme in das Register vorschlagen?  
+**Nutzen Sie dazu bitte dieses [Formular](https://form-interface-5d7ffe.zapier.app/)**.
 
 ### **Pflege**
-Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf Korrekturbedarf hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung. Alternativ können Sie auch das **Meldeformular (LINK)** verwenden.
+Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf **Korrekturbedarf** hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung (`kf_prize_id`). Alternativ können Sie auch dieses **[Formular](https://form-interface-5d7ffe.zapier.app/)** verwenden.
 
 ### **Datenspende**
 Betreiben Sie an Ihrer Einrichtung bereits ein Forschungsinformationssystem mit vielen Preisen und Auszeichnungen? Wenn Sie Ihre Sammlung in ORAP einspeisen möchten, kontaktieren Sie uns unter **[orap@kfid-online.de](mailto:orap@kfid-online.de)**.
