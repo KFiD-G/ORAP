@@ -183,6 +183,35 @@ Als Ansetzungsform soll die Version der Website (Impressum, sofern vorhanden) ge
 Drittquellen (z. B. Wikidata) sind häufig nicht so aktuell wie die Website.  
 Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
 
+### Übersetzungen des Verleihers
+
+| Information         | Beschreibung                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Element ID**   | 4.1 |
+| **Name**            | `preisverleiher_uebersetzung_en`                                                                        |
+| **Abhängiges Feld** | `preisverleiher`                                                                                        |
+| **Definition**      | Bezeichnung des Preisverleihers ins Englische übersetzt, sofern die Originalsprache nicht Englisch ist. |
+| **Entitätentyp**    | Freitext                                                                                                |
+| **Wert**            | Freitext                                                                                                |
+| **Occurence**       | 0-1                                                                                                     |
+
+| Information         | Beschreibung                                                                                          |
+| ------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Element ID**   | 4.2 |
+| **Name**            | `preisverleiher_uebersetzung_de`                                                                      |
+| **Abhängiges Feld** | `preisverleiher`                                                                                      |
+| **Definition**      | Bezeichnung des Preisverleihers ins Deutsche übersetzt, sofern die Originalsprache nicht Deutsch ist. |
+| **Entitätentyp**    | Freitext                                                                                              |
+| **Wert**            | Freitext                                                                                              |
+| **Occurence**       | 0-1                                                                                                   |
+
+#### **Aufnahmeregel für Element ID 4.1 und 4.2**
+**Name: `preisverleiher_uebersetzung_en`; `preisverleiher_uebersetzung_de`**  
+Verleiher werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung auf Deutsch, wird zusätzlich eine englische Übersetzung eingetragen. Ist die Originalbezeichnung auf Englisch, wird zusätzlich eine deutsche Übersetzung ergänzt.
+Ist die Originalbezeichnung weder auf Deutsch noch auf Englisch, werden beide Übersetzungen aufgenommen – sofern verfügbar.
+Die Übersetzungen werden, wenn möglich, den offiziellen Webseiten der Preisverleiher entnommen.
+Falls dort keine Übersetzung verfügbar ist, wird eine sebsterstellte Übersetzung vom ORAP-Team verwendet.
+
 ---
 
 ### Kategorie des Preisverleihers
