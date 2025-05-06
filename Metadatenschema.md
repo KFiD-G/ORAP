@@ -26,6 +26,8 @@ Das Schema umfasst **20 speziell entwickelte Felder**, die auf die Anforderungen
 | 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
 | 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
+| 4.1    | [Übersetzungen des Verleihers (EN)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
+| 4.2    | [Übersetzungen des Verleihers (DE)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
@@ -175,21 +177,16 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 [🔝](#top)
 
 **Aufnahmeregel für Element ID 4**  
-**Name: `preisverleiher`**  
-Ein Preisverleiher wird ohne Artikel in seiner deutschsprachigen Bezeichnung erfasst, sofern diese auf der Website angegeben ist.  
-Ist keine deutsche Bezeichnung verfügbar, aber eine englische, wird stattdessen die englische Version aufgenommen.  
-Falls weder eine deutsche noch eine englische Bezeichnung vorliegt, wird die Originalbezeichnung verwendet.  
-Als Ansetzungsform soll die Version der Website (Impressum, sofern vorhanden) genutzt werden.  
-Drittquellen (z. B. Wikidata) sind häufig nicht so aktuell wie die Website.  
-Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
+**Name: preisverleiher**  
+Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
 
 ### Übersetzungen des Verleihers
 
 | Information         | Beschreibung                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Element ID**   | 4.1 |
-| **Name**            | `preisverleiher_uebersetzung_en`                                                                        |
-| **Abhängiges Feld** | `preisverleiher`                                                                                        |
+| **Name**            | preisverleiher_uebersetzung_en                                                                        |
+| **Abhängiges Feld** | preisverleiher                                                                                        |
 | **Definition**      | Bezeichnung des Preisverleihers ins Englische übersetzt, sofern die Originalsprache nicht Englisch ist. |
 | **Entitätentyp**    | Freitext                                                                                                |
 | **Wert**            | Freitext                                                                                                |
@@ -198,19 +195,21 @@ Sind mehrere Preisverleiher vorhanden, werden diese durch Semikolon getrennt.
 | Information         | Beschreibung                                                                                          |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Element ID**   | 4.2 |
-| **Name**            | `preisverleiher_uebersetzung_de`                                                                      |
-| **Abhängiges Feld** | `preisverleiher`                                                                                      |
+| **Name**            | preisverleiher_uebersetzung_de                                                                      |
+| **Abhängiges Feld** | preisverleiher                                                                                      |
 | **Definition**      | Bezeichnung des Preisverleihers ins Deutsche übersetzt, sofern die Originalsprache nicht Deutsch ist. |
 | **Entitätentyp**    | Freitext                                                                                              |
 | **Wert**            | Freitext                                                                                              |
 | **Occurence**       | 0-1                                                                                                   |
 
 #### **Aufnahmeregel für Element ID 4.1 und 4.2**
-**Name: `preisverleiher_uebersetzung_en`; `preisverleiher_uebersetzung_de`**  
+**Name: preisverleiher_uebersetzung_en; preisverleiher_uebersetzung_de**  
 Verleiher werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung auf Deutsch, wird zusätzlich eine englische Übersetzung eingetragen. Ist die Originalbezeichnung auf Englisch, wird zusätzlich eine deutsche Übersetzung ergänzt.
 Ist die Originalbezeichnung weder auf Deutsch noch auf Englisch, werden beide Übersetzungen aufgenommen – sofern verfügbar.
 Die Übersetzungen werden, wenn möglich, den offiziellen Webseiten der Preisverleiher entnommen.
 Falls dort keine Übersetzung verfügbar ist, wird eine sebsterstellte Übersetzung vom ORAP-Team verwendet.
+
+[🔝](#top)
 
 ---
 
