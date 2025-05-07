@@ -236,12 +236,13 @@ Organisationen, die primär aus dem Bereich der Wissenschaft und Forschung stamm
 - Forschungsinstitute (z. B. Max-Planck-Institute, Fraunhofer-Institute)
 - Forschungsförderungsorganisationen (z. B. Deutsche Forschungsgemeinschaft)
 - Stiftungen mit Fokus auf Wissenschaft (z. B. Alexander von Humboldt-Stiftung)
-- Wissenschaftsverlage und Fachzeitschriften (z. B. Springer Nature)
+- Fachzeitschriften (z. B. Springer Nature)
 
 #### Wirtschaftlicher Sektor
 Organisationen der Privatwirtschaft mit dem Ziel wirtschaftlichen Erfolgs und der Förderung unternehmerischer Interessen:
 - Unternehmen (z. B. Siemens)
 - Industrieverbände (z. B. Verband der Chemischen Industrie)
+- Wissenschaftsverlage
 
 #### Öffentlicher Sektor
 Staatliche und supranationale Organisationen mit öffentlichen Aufgaben:
@@ -344,20 +345,15 @@ In diesem Fall bleibt das Feld leer.
 
 **Forschung:**  
 Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende oder wegweisende Forschungsergebnisse vergeben.  
-Diese Arbeiten müssen einen bedeutenden Beitrag zur Erweiterung des Wissens im jeweiligen Fachgebiet leisten.  
-Kriterien: Innovationsgrad, wissenschaftliche Qualität, Relevanz und Originalität, Publikation in anerkannten Journalen, Anerkennung durch Fachgemeinschaft.
 
 **Lehre:**  
-Ein Preis mit dem Gegenstand „Lehre“ würdigt herausragende Leistungen in der akademischen Lehre.  
-Kriterien: Innovation der Lehrmethoden, didaktische Qualität, Förderung kritischen Denkens, Studierendenrückmeldungen, Einfluss auf Lehrkultur.
+Ein Preis mit dem Gegenstand “Lehre” ist eine Anerkennung für herausragende Leistungen in der Lehre im akademischen Kontext.
 
 **Transfer:**  
-Ein Preis mit dem Gegenstand „Transfer“ würdigt die Übertragung wissenschaftlicher Erkenntnisse in Gesellschaft und Wirtschaft.  
-Kriterien: Umsetzung von Forschung in Produkte/Dienstleistungen, Wissenschaftskommunikation, Reichweite, Relevanz, Innovation, Nachhaltigkeit.
+Ein Preis mit dem Gegenstand “Transfer” würdigt die erfolgreiche Übertragung wissenschaftlicher Erkenntnisse aus dem akademischen Umfeld in die Gesellschaft und Wirtschaft. Er ehrt Leistungen, die sich in der Umsetzung von Forschungsergebnissen in innovative Produkte, Dienstleistungen oder Technologien manifestieren, die Vermittlung von wissenschaftlichem Wissen an die breite Öffentlichkeit fördern und den Dialog zwischen Wissenschaft und Gesellschaft stärken.
 
 **Sonstiges:**  
-Ein Preis, der keiner der Kategorien Forschung, Lehre oder Transfer eindeutig zugeordnet werden kann.  
-Bezieht sich z. B. auf Kunstpreise oder andere fachfremde Bereiche.
+Ein Preis mit der Kategorie “Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie Sonstiges. Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen nach den jeweiligen Kategorien aufgenommen werden, wo der Anteil am größten ist. Die Kategorie “Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern, z.B. Kunst.
 
 ### Aufnahmeregeln für Element ID 6 und 6a
 
