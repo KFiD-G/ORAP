@@ -11,7 +11,7 @@ Das Schema bildet die Grundlage für eine einheitliche Erfassung, Verwaltung und
 
 Es kann genutzt werden, um Preise systematisch zu erfassen, zu kategorisieren und gezielt zu recherchieren. Darüber hinaus ermöglicht es eine einheitliche Darstellung und erleichtert die Weiterverarbeitung der Daten in unterschiedlichen Kontexten.
 
-Das Schema umfasst **20 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
+Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
 
 ---
 <a name="top"></a>
