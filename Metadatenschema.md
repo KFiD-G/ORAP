@@ -381,7 +381,7 @@ Ein Preis mit der Kategorie “Sonstiges” fällt in keine der anderen Kategori
 | **Name**         | art_preis_ausz |
 | **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis oder um eine wissenschaftliche Auszeichnung handelt. |
 | **Entitätentyp** | Kontrollierte Liste |
-| **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung |
+| **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung; Akademiemitgliedschaft |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -397,6 +397,11 @@ Auch Projektförderungen können dazugehören, sofern sie nicht an eine Bewerbun
 Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.  
 Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Akademie oder Gesellschaft.  
 Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie besonders prestigeträchtig sind.
+
+**Akademiemitgliedschaft:**  
+Eine Akademiemitgliedschaft ist eine Form der dauerhaften Aufnahme in eine wissenschaftliche Akademie oder Gelehrtengesellschaft, die auf Grundlage besonderer wissenschaftlicher Leistungen erfolgt.   
+Zum Beispiel in die Leopoldina – Nationale Akademie der Wissenschaften.
+
 
 ---
 
