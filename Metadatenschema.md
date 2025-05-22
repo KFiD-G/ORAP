@@ -399,8 +399,8 @@ Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Akademie oder Ges
 Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie besonders prestigeträchtig sind.
 
 **Akademiemitgliedschaft:**  
-Eine Akademiemitgliedschaft ist eine Form der dauerhaften Aufnahme in eine wissenschaftliche Akademie oder Gelehrtengesellschaft, die auf Grundlage besonderer wissenschaftlicher Leistungen erfolgt.   
-Zum Beispiel in die Leopoldina – Nationale Akademie der Wissenschaften.
+Eine Akademiemitgliedschaft ist die dauerhafte Aufnahme in eine [Akademie der Wissenschaften](https://de.wikipedia.org/wiki/Akademie_der_Wissenschaften), die auf Grundlage besonderer wissenschaftlicher Leistungen erfolgt.   
+Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale Akademie der Wissenschaften.
 
 
 ---
