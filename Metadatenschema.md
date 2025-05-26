@@ -31,13 +31,13 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
-| 6    | [Gegenstand des Preises](#Art-des-wissenschaftlichen-Preises-/-Art-der-wissenschaftlichen-Auszeichnung)                        | 1         | Kontrollierte Liste |
+| 6    | [Gegenstand des Preises](#gegenstand-des-preises)                        | 1         | Kontrollierte Liste |
 | 7    | [Art des Preises](#Art-des-Preises-oder-der-Auszeichnung)                  | 1         | Kontrollierte Liste |
-| 11   | [Frühes Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
+| 11   | [Frühes Karrierestadium](#preis-fur-personen-in-einem-fruhen-karrierestadium)                      | 1         | Binär: ja; nein |
 | 12   | [Preisgeld](#Dotierung-eines-Preises)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
-| 12a  | [Währung des Preisgeldes](#Dotierung-eines-Preises)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
+| 12a  | [Währung des Preisgeldes](#preisgeld--währung)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
 | 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
-| 13.1 | [Einschränkungen – geografische Gebiete](#Einschränkungen-/-geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
+| 13.1 | [Einschränkungen – geografische Gebiete](#Einschränkungen--geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
 | 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte List |
 | 16 | [Laufzeitbeginn eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 | 17 | [Laufzeitende eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
