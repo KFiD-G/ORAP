@@ -25,9 +25,13 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 3a   | [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)     | 1         | Kontrollierte Liste (extern) |
 | 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
 | 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
+| 3.1a  | [Provenienzfeld Preis (EN)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
+| 3.2a  | [Provenienzfeld Preis (DE)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
 | 4.1    | [Übersetzungen des Verleihers (EN)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
 | 4.2    | [Übersetzungen des Verleihers (DE)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
+| 4.1a  | [Provenienzfeld Verleiher (EN)](#provenienzfelder-für-preisverleiher)     | 0-1        | Freitext                |
+| 4.2a  | [Provenienzfeld Verleiher (DE)](#provenienzfelder-für-preisverleiher)     | 0-1        | Freitext                |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
@@ -163,6 +167,30 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 
 ---
 
+### **Provenienzfelder für Preisbezeichnungen**
+
+| Information        | Beschreibung |
+|--------------------|--------------|
+| **Element_ID**     | 3.1a         |
+| **Name**           | provenienz_uebersetzung_en |
+| **Abhängiges Feld**| label_uebersetzung_en |
+| **Definition**     | Quelle/Herkunft der englischen Übersetzung der Preisbezeichnung |
+| **Entitätentyp**   | Freitext     |
+| **Wert**           | Freitext     |
+| **Occurence**      | 0-1          |
+
+| Information        | Beschreibung |
+|--------------------|--------------|
+| **Element_ID**     | 3.2a         |
+| **Name**           | provenienz_uebersetzung_de |
+| **Abhängiges Feld**| label_uebersetzung_de |
+| **Definition**     | Quelle/Herkunft der deutschen Übersetzung der Preisbezeichnung |
+| **Entitätentyp**   | Freitext     |
+| **Wert**           | Freitext     |
+| **Occurence**      | 0-1          |
+
+---
+
 ### Preisverleiher
 
 | Information         | Beschreibung |
@@ -210,6 +238,30 @@ Die Übersetzungen werden, wenn möglich, den offiziellen Webseiten der Preisver
 Falls dort keine Übersetzung verfügbar ist, wird eine sebsterstellte Übersetzung vom ORAP-Team verwendet.
 
 [🔝](#top)
+
+---
+
+### **Provenienzfelder für Preisverleiher**
+
+| Information        | Beschreibung |
+|--------------------|--------------|
+| **Element_ID**     | 4.1a         |
+| **Name**           | provenienz_uebersetzung_verleiher_en |
+| **Abhängiges Feld**| preisverleiher_uebersetzung_en |
+| **Definition**     | Quelle/Herkunft der englischen Übersetzung des Preisverleihers |
+| **Entitätentyp**   | Freitext     |
+| **Wert**           | Freitext     |
+| **Occurence**      | 0-1          |
+
+| Information        | Beschreibung |
+|--------------------|--------------|
+| **Element_ID**     | 4.2a         |
+| **Name**           | provenienz_uebersetzung_verleiher_de |
+| **Abhängiges Feld**| preisverleiher_uebersetzung_de |
+| **Definition**     | Quelle/Herkunft der deutschen Übersetzung des Preisverleihers |
+| **Entitätentyp**   | Freitext     |
+| **Wert**           | Freitext     |
+| **Occurence**      | 0-1          |
 
 ---
 
