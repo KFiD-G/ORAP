@@ -28,10 +28,6 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 3.1a  | [Provenienzfeld Preis (EN)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
 | 3.2a  | [Provenienzfeld Preis (DE)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
-| 4.1    | [Übersetzungen des Verleihers (EN)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
-| 4.2    | [Übersetzungen des Verleihers (DE)](#Übersetzungen-des-Verleihers)                  | 1-n       | Freitext     |
-| 4.1a  | [Provenienzfeld Verleiher (EN)](#provenienzfelder-für-preisverleiher)     | 0-1        | Freitext                |
-| 4.2a  | [Provenienzfeld Verleiher (DE)](#provenienzfelder-für-preisverleiher)     | 0-1        | Freitext                |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
@@ -207,61 +203,6 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 **Aufnahmeregel für Element ID 4**  
 **Name: preisverleiher**  
 Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
-
-### Übersetzungen des Verleihers
-
-| Information         | Beschreibung                                                                                            |
-| ------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Element ID**   | 4.1 |
-| **Name**            | preisverleiher_uebersetzung_en                                                                        |
-| **Abhängiges Feld** | preisverleiher                                                                                        |
-| **Definition**      | Bezeichnung des Preisverleihers ins Englische übersetzt, sofern die Originalsprache nicht Englisch ist. |
-| **Entitätentyp**    | Freitext                                                                                                |
-| **Wert**            | Freitext                                                                                                |
-| **Occurence**       | 0-1                                                                                                     |
-
-| Information         | Beschreibung                                                                                          |
-| ------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Element ID**   | 4.2 |
-| **Name**            | preisverleiher_uebersetzung_de                                                                      |
-| **Abhängiges Feld** | preisverleiher                                                                                      |
-| **Definition**      | Bezeichnung des Preisverleihers ins Deutsche übersetzt, sofern die Originalsprache nicht Deutsch ist. |
-| **Entitätentyp**    | Freitext                                                                                              |
-| **Wert**            | Freitext                                                                                              |
-| **Occurence**       | 0-1                                                                                                   |
-
-#### **Aufnahmeregel für Element ID 4.1 und 4.2**
-**Name: preisverleiher_uebersetzung_en; preisverleiher_uebersetzung_de**  
-Verleiher werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung auf Deutsch, wird zusätzlich eine englische Übersetzung eingetragen. Ist die Originalbezeichnung auf Englisch, wird zusätzlich eine deutsche Übersetzung ergänzt.
-Ist die Originalbezeichnung weder auf Deutsch noch auf Englisch, werden beide Übersetzungen aufgenommen – sofern verfügbar.
-Die Übersetzungen werden, wenn möglich, den offiziellen Webseiten der Preisverleiher entnommen.
-Falls dort keine Übersetzung verfügbar ist, wird eine sebsterstellte Übersetzung vom ORAP-Team verwendet.
-
-[🔝](#top)
-
----
-
-### **Provenienzfelder für Preisverleiher**
-
-| Information        | Beschreibung |
-|--------------------|--------------|
-| **Element_ID**     | 4.1a         |
-| **Name**           | provenienz_uebersetzung_verleiher_en |
-| **Abhängiges Feld**| preisverleiher_uebersetzung_en |
-| **Definition**     | Quelle/Herkunft der englischen Übersetzung des Preisverleihers |
-| **Entitätentyp**   | Freitext     |
-| **Wert**           | Freitext     |
-| **Occurence**      | 0-1          |
-
-| Information        | Beschreibung |
-|--------------------|--------------|
-| **Element_ID**     | 4.2a         |
-| **Name**           | provenienz_uebersetzung_verleiher_de |
-| **Abhängiges Feld**| preisverleiher_uebersetzung_de |
-| **Definition**     | Quelle/Herkunft der deutschen Übersetzung des Preisverleihers |
-| **Entitätentyp**   | Freitext     |
-| **Wert**           | Freitext     |
-| **Occurence**      | 0-1          |
 
 ---
 
