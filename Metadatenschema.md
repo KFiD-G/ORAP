@@ -228,13 +228,13 @@ Organisationen, die primär aus dem Bereich der Wissenschaft und Forschung stamm
 - Forschungsinstitute (z. B. Max-Planck-Institute, Fraunhofer-Institute)
 - Forschungsförderungsorganisationen (z. B. Deutsche Forschungsgemeinschaft)
 - Stiftungen mit Fokus auf Wissenschaft (z. B. Alexander von Humboldt-Stiftung)
-- Fachzeitschriften (z. B. Springer Nature)
+- Fachzeitschriften (z. B. European Journal of Immunology)
 
 #### Wirtschaftlicher Sektor
 Organisationen der Privatwirtschaft mit dem Ziel wirtschaftlichen Erfolgs und der Förderung unternehmerischer Interessen:
 - Unternehmen (z. B. Siemens)
 - Industrieverbände (z. B. Verband der Chemischen Industrie)
-- Wissenschaftsverlage
+- Wissenschaftsverlage (z. B. Springer Medizin)
 
 #### Öffentlicher Sektor
 Staatliche und supranationale Organisationen mit öffentlichen Aufgaben:
