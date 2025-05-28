@@ -1,7 +1,6 @@
 # Offenes Register für Auszeichnungen und Preise (ORAP)
 
 ## Metadatenschema  
-**Februar 2025**  
  
 ---
 
