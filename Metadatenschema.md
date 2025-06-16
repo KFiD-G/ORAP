@@ -37,7 +37,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 12a  | [Währung des Preisgeldes](#preisgeld--währung)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
 | 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
 | 13.1 | [Einschränkungen – geografische Gebiete](#Einschränkungen--geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
-| 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte List |
+| 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte Liste |
 | 16 | [Laufzeitbeginn eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 | 17 | [Laufzeitende eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
 
