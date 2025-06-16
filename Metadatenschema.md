@@ -387,7 +387,7 @@ Auch Projektförderungen können dazugehören, sofern sie nicht an eine Bewerbun
 
 **Wissenschaftliche Auszeichnung:**  
 Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.  
-Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Akademie oder Gesellschaft.  
+Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Fachgesellschaft.  
 Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie besonders prestigeträchtig sind.
 
 **Akademiemitgliedschaft:**  
