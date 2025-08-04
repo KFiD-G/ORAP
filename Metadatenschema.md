@@ -139,20 +139,20 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 |---------------------|------|
 | **Element_ID**  | 3.1  |
 | **Name**        | label_uebersetzung_en |
-| **Definition**  | Bezeichnung des Preises ins Englische übersetzt, sofern die Originalsprache nicht Englisch ist. |
+| **Definition**  | Bezeichnung des Preises ins Englische übersetzt. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
-| **Occurence**   | 0-1 |
+| **Occurence**   | 1 |
 
 | Information         | Beschreibung |
 |---------------------|------|
 | **Element_ID**  | 3.2  |
 | **Name**        | label_uebersetzung_de |
 | **abhängiges Feld** | label_sprache_de |
-| **Definition**  | Bezeichnung des Preises ins Deutsche übersetzt, sofern die Originalsprache nicht Deutsch ist. |
+| **Definition**  | Bezeichnung des Preises ins Deutsche übersetzt. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
-| **Occurence**   | 0-1 |
+| **Occurence**   | 1 |
 
 [🔝](#top)
 
@@ -170,9 +170,9 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 | **Name**           | provenienz_uebersetzung_en |
 | **Abhängiges Feld**| label_uebersetzung_en |
 | **Definition**     | Quelle/Herkunft der englischen Übersetzung der Preisbezeichnung |
-| **Entitätentyp**   | Freitext     |
-| **Wert**           | Freitext     |
-| **Occurence**      | 0-1          |
+| **Entitätentyp**   | Kontrollierte Liste     |
+| **Wert**           | Webseite, ORAP     |
+| **Occurence**      | 1          |
 
 | Information        | Beschreibung |
 |--------------------|--------------|
@@ -180,9 +180,9 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 | **Name**           | provenienz_uebersetzung_de |
 | **Abhängiges Feld**| label_uebersetzung_de |
 | **Definition**     | Quelle/Herkunft der deutschen Übersetzung der Preisbezeichnung |
-| **Entitätentyp**   | Freitext     |
-| **Wert**           | Freitext     |
-| **Occurence**      | 0-1          |
+| **Entitätentyp**   | Kontrollierte Liste     |
+| **Wert**           | Webseite, ORAP     |
+| **Occurence**      | 1          |
 
 ---
 
@@ -315,8 +315,8 @@ Beispiel:
 ✘ `https://www.luther-gesellschaft.de/martin-luther-preis/preistraeger.html`
 
 **Keine URL verfügbar:**  
-Ist keine spezifische URL für den Preis vorhanden, wird keine Sekundärquelle angegeben.  
-In diesem Fall bleibt das Feld leer.
+Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseite des Preisverleihers bzw. den Webseiten der Preisverleiher ebenfalls keine Informationen über den Preis finden lassen, wird keine Quelle angegeben.  
+In diesem Fall wird der Wert "nicht verfügbar" vergeben.
 
 ---
 
@@ -371,7 +371,7 @@ Ein Preis mit der Kategorie “Sonstiges” fällt in keine der anderen Kategori
 |------------------|------|
 | **Element ID**   | 7 |
 | **Name**         | art_preis_ausz |
-| **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis oder um eine wissenschaftliche Auszeichnung handelt. |
+| **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis, eine wissenschaftliche Auszeichnung oder eine Akademiemitgliedschaft handelt. |
 | **Entitätentyp** | Kontrollierte Liste |
 | **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung; Akademiemitgliedschaft |
 | **Occurence**    | 1 |
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
