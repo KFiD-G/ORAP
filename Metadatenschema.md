@@ -107,7 +107,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
-Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Die Aufnahme erfolgt ohne Artikel und ohne den Zusatz der Verleiherbezeichnung (also z.B. "Eduard Strasburger-Preis" statt "Eduard Strasburger-Preis der DBG"). Ist der Verleiher hingegen anderweitig Bestandteil der Preisbezeichnung (z.B. “NAS Award in Early Earth and Life Sciences”), wird die Bezeichnung mitgeführt. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist. 
 
 [🔝](#top)
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
