@@ -181,7 +181,7 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 | **Abhängiges Feld**| label_uebersetzung_de |
 | **Definition**     | Quelle/Herkunft der deutschen Übersetzung der Preisbezeichnung |
 | **Entitätentyp**   | Kontrollierte Liste     |
-| **Wert**           | Webseite, ORAP     |
+| **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
 
 ---
@@ -213,7 +213,7 @@ Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die A
 | **Name**         | preisverleiher_kat |
 | **Abhängiges Feld** | preisverleiher |
 | **Entitätentyp** | Kontrollierte Liste |
-| **Wert**         | wissenschaftlicher Sektor, wirtschaftlicher Sektor, öffentlicher Sektor, Stiftungen, Sonstige |
+| **Wert**         | wissenschaftlicher Sektor; wirtschaftlicher Sektor; öffentlicher Sektor; Stiftungen; Sonstige |
 | **Occurence**    | 1-n (entsprechend der Anzahl der Preisverleiher) |
 
 [🔝](#top)
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
