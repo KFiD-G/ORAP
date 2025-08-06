@@ -107,7 +107,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
-Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
 
 [🔝](#top)
 
@@ -201,7 +201,7 @@ Preise werden in ihrer Originalbezeichnung erfasst. Ist die Originalbezeichnung 
 
 **Aufnahmeregel für Element ID 4**  
 **Name: preisverleiher**  
-Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel und ohne Nennung der Rechtsform. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden.
+Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel und ohne Nennung der Rechtsform. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
 
 ---
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
