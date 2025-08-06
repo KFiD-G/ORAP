@@ -22,10 +22,10 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 2    | [Wikidata Identifier](#wikidata-identifier)                     | 0-1       | Identifier   |
 | 3    | [Bezeichnung des Preises](#bezeichnung-des-preises)          | 1         | Freitext     |
 | 3a   | [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)     | 1         | Kontrollierte Liste (extern) |
-| 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
-| 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 0-1         | Freitext |
-| 3.1a  | [Provenienzfeld Preis (EN)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
-| 3.2a  | [Provenienzfeld Preis (DE)](#provenienzfelder-für-preisbezeichnungen)     | 0-1        | Freitext                |
+| 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 1         | Freitext |
+| 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 1         | Freitext |
+| 3.1a  | [Provenienzfeld Preis (EN)](#provenienzfelder-für-preisbezeichnungen)     | 1        | Freitext                |
+| 3.2a  | [Provenienzfeld Preis (DE)](#provenienzfelder-für-preisbezeichnungen)     | 1        | Freitext                |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
