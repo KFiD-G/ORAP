@@ -148,7 +148,6 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 |---------------------|------|
 | **Element_ID**  | 3.2  |
 | **Name**        | label_uebersetzung_de |
-| **abhängiges Feld** | label_sprache_de |
 | **Definition**  | Bezeichnung des Preises ins Deutsche übersetzt. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
@@ -620,6 +619,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
