@@ -13,6 +13,7 @@ Es kann genutzt werden, um Preise systematisch zu erfassen, zu kategorisieren un
 Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen der Erfassung von Preisen zugeschnitten sind.
 
 ---
+
 <a name="top"></a>
 ## Kurzüberblick
 
@@ -619,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
