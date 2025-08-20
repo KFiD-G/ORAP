@@ -501,7 +501,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 | **Name**         | einschraenkung_wirkungsstaette_gebiet |
 | **Definition**   | Länder, Regionen oder Orte, in denen die Wirkungsstätte liegen muss. |
 | **Entitätentyp** | Freitext |
-| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland, Bayern, München“ |
+| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland | Bayern | München“ |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -509,8 +509,8 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 #### Aufnahmeregeln für Element ID 13 und 13.1
 
 - **Hierarchische Struktur geografischer Angaben:**  
-  Gebiete werden vom Allgemeinen zum Spezifischen angegeben und durch Kommas getrennt.  
-  *Beispiel:* `Deutschland, Hessen, Frankfurt`
+  Gebiete werden vom Allgemeinen zum Spezifischen angegeben und durch das Pipe-Symbol getrennt.  
+  *Beispiel:* `Deutschland | Hessen | Frankfurt`
 
 - **Gleichrangige geografische Einheiten:**  
   Werden durch ein Semikolon getrennt.  
@@ -520,10 +520,10 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
   Werden jeweils in einer neuen Zeile angegeben, beginnend mit dem größten Bezug.  
   *Beispiel:*  
   ```
-  Deutschland, Hessen, Frankfurt  
-  Deutschland, Brandenburg, Potsdam
+  Deutschland | Hessen | Frankfurt  
+  Deutschland | Brandenburg | Potsdam
   ```
-  (nicht: `Deutschland, Hessen, Brandenburg, Frankfurt, Potsdam`)
+  (nicht: `Deutschland | Hessen | Brandenburg | Frankfurt | Potsdam`)
 
 - **Allgemeine geografische Begriffe:**  
   Begriffe wie „Schwellenländer“, „globale Südregionen“, „Lateinamerika“ oder „osteuropäische Länder“ dürfen direkt eingetragen werden.
@@ -535,7 +535,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 #### Mögliche Fälle:
 
 1. **Gebunden an eine konkrete Einrichtung in einem bestimmten Ort:**  
-   - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland, Baden-Württemberg, Freiburg`  
+   - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland | Baden-Württemberg | Freiburg`  
 
 2. **Gebunden an eine Organisation, aber ohne geografische Einschränkung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
