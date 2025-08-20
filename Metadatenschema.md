@@ -501,7 +501,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 | **Name**         | einschraenkung_wirkungsstaette_gebiet |
 | **Definition**   | Länder, Regionen oder Orte, in denen die Wirkungsstätte liegen muss. |
 | **Entitätentyp** | Freitext |
-| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland | Bayern | München“ |
+| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland \| Bayern \| München“ |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
