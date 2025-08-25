@@ -158,7 +158,13 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 
 #### **Aufnahmeregel für Element ID 3.1 und 3.2**
 **Name: label_uebersetzung_en; label_uebersetzung_de**  
-Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Übersetzungen werden primär den offiziellen Webseiten entnommen.  Falls dort keine Übersetzung verfügbar ist, erstellt das ORAP-Team eigene Übersetzungen.
+Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich sind immer sowohl eine deutsche als auch eine englische Übersetzung verpflichtend.  
+
+- Liegt die Originalbezeichnung auf Deutsch vor, wird zusätzlich eine englische Übersetzung eingetragen.  
+- Liegt die Originalbezeichnung auf Englisch vor, wird zusätzlich eine deutsche Übersetzung eingetragen.  
+- Liegt die Originalbezeichnung in einer anderen Sprache vor, werden sowohl eine deutsche als auch eine englische Übersetzung ergänzt.  
+
+Die Übersetzungen werden primär von den offiziellen Webseiten übernommen. Wenn dort keine Übersetzungen verfügbar sind, erstellt das ORAP-Team eigene Übersetzungen.
 
 ---
 
@@ -620,6 +626,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
