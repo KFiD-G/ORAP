@@ -166,7 +166,7 @@ Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich sind immer sowoh
 
 Die Übersetzungen werden primär von den offiziellen Webseiten übernommen. Wenn dort keine Übersetzungen verfügbar sind, erstellt das ORAP-Team eigene Übersetzungen.
 
-### Hinweis zur Verwendung von Singular und Plural bei Übersetzungen
+#### Hinweis zur Verwendung von Singular und Plural bei Übersetzungen
 
 Die Originalbezeichnung eines Preises wird in der vorhandenen Sprachform (Singular oder Plural) übernommen.  
 Bei Übersetzungen ins Deutsche oder Englische soll nach Möglichkeit eine Vereinheitlichung auf den Singular erfolgen (z. B. *Awards → Preis*).  
@@ -632,6 +632,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
