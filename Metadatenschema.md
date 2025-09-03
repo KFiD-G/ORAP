@@ -524,12 +524,11 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
   Werden durch ein Semikolon getrennt.  
   *Beispiel:* `Deutschland; Frankreich; Irland`
 
-- **Mehrere geografische Bezüge:**  
-  Werden jeweils in einer neuen Zeile angegeben, beginnend mit dem größten Bezug.  
+- **Mehrere geografische Bezüge mit hierarchischer Struktur:**  
+  Werden durch Semikolon getrennt angegeben, beginnend mit dem größten Bezug.  
   *Beispiel:*  
   ```
-  Deutschland | Hessen | Frankfurt  
-  Deutschland | Brandenburg | Potsdam
+  Deutschland | Hessen | Frankfurt; Deutschland | Brandenburg | Potsdam
   ```
   (nicht: `Deutschland | Hessen | Brandenburg | Frankfurt | Potsdam`)
 
@@ -628,6 +627,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
