@@ -11,9 +11,9 @@ keywords:
   - Research information
   - Offene Daten
   - Open Data
-url: *NOCH TODO* https://kfid-online.de/orap
+url: https://kfid-online.de/orap
 license: CC0-1.0
 version: 1.0.0 
 authors:
-  - name: Kommission für Forschungsinformationen in Deutschland
+  - name: KFiD - Kommission für Forschungsinformationen in Deutschland
     email: info@kfid-online.de
