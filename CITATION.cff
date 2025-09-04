@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+type: dataset
+title: Offenes Register für Auszeichnungen und Preise
+abstract: "Im Datensatz &quot;Offenes Register für Auszeichnungen und Preise&quot; (ORAP)\_werden Daten über wissenschaftliche Preise und Auszeichnungen bereitgestellt. [Was ist enthalten?] [Wozu dient es?]  Bsp. RKI: Im Datensatz &quot;Respiratorische Synzytialvirusfälle in Deutschland&quot;\_des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu Infektionen mit dem Respiratorischen Synzytial-Virus (RSV) nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Bundeslandebene zu Infektionen nach Falldefinition des Robert Koch-Instituts, differenziert nach Altersgruppen. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen."
+keywords:
+  - Wissenschaftliche Preise
+  - Wissenschaftliche Auszeichnungen
+  - ORAP
+  - KFiD
+  - Forschungsinformationen
+  - Research information
+  - Offene Daten
+  - Open Data
+url: *NOCH TODO* https://kfid-online.de/orap
+license: CC0-1.0
+version: 1.0.0 
+authors:
+  - name: Kommission für Forschungsinformationen in Deutschland
+    email: info@kfid-online.de
