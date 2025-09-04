@@ -63,6 +63,9 @@ Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links ve
 ### **Lizenzierung**
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
+### **Zitiervorschlag**
+KFiD – Kommission für Forschungsinformationen in Deutschland (2025): Offenes Register für Auszeichnungen und Preise, Berlin. [Hier noch DOI einfügen]
+
 ## **Mitmachen**
 Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
 
