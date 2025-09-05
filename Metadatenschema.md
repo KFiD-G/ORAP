@@ -32,7 +32,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
-| 5    | [Webseite](#webseite-der-beschreibung)                   | 1         | Freitext     |
+| 5    | [Webseite](#webseite-der-beschreibung)                   | 0-1         | Freitext     |
 | 6    | [Gegenstand des Preises](#gegenstand-des-preises)                        | 1         | Kontrollierte Liste |
 | 7    | [Art des Preises](#Art-des-Preises-oder-der-Auszeichnung)                  | 1         | Kontrollierte Liste |
 | 11   | [Frühes Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
@@ -110,7 +110,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
-Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Die Aufnahme erfolgt ohne Artikel und ohne den Zusatz der Verleiherbezeichnung (also z.B. "Eduard Strasburger-Preis" statt "Eduard Strasburger-Preis der DBG"). Ist der Verleiher hingegen anderweitig Bestandteil der Preisbezeichnung (z.B. “NAS Award in Early Earth and Life Sciences”), wird die Bezeichnung mitgeführt. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist. 
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Die Aufnahme erfolgt ohne Artikel. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist. 
 
 [🔝](#top)
 
@@ -160,7 +160,7 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 
 #### **Aufnahmeregel für Element ID 3.1 und 3.2**
 **Name: label_uebersetzung_en; label_uebersetzung_de**  
-Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Übersetzungen werden primär den offiziellen Webseiten entnommen. Falls dort keine Übersetzung verfügbar ist, erstellt das ORAP-Team eigene Übersetzungen. 
+Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Übersetzungen werden primär den offiziellen Webseiten entnommen. Falls dort keine Übersetzung verfügbar ist, erstellt das ORAP-Team eigene Übersetzungen.
 
 #### Hinweis zur Verwendung von Singular und Plural bei Übersetzungen
 
@@ -209,7 +209,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 
 **Aufnahmeregel für Element ID 4**  
 **Name: preisverleiher**  
-Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel und ohne Nennung der Rechtsform. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
+Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
 
 ---
 
@@ -301,7 +301,7 @@ Mehrere Werte werden mit Semikolon getrennt.
 | **Definition**   | URL einer Website, die vom Preisverleiher betrieben wird und auf welcher der Preis beschrieben ist. |
 | **Entitätentyp** | Freitext |
 | **Wert**         | URL der Subdomain, des Ordners oder der Website, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
-| **Occurence**    | 1 |
+| **Occurence**    | 0-1 |
 
 [🔝](#top)
 
@@ -323,8 +323,7 @@ Beispiel:
 ✘ `https://www.luther-gesellschaft.de/martin-luther-preis/preistraeger.html`
 
 **Keine URL verfügbar:**  
-Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseite des Preisverleihers bzw. den Webseiten der Preisverleiher ebenfalls keine Informationen über den Preis finden lassen, wird keine Quelle angegeben.  
-In diesem Fall wird der Wert "nicht verfügbar" vergeben.
+Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseite des Preisverleihers bzw. den Webseiten der Preisverleiher ebenfalls keine Informationen über den Preis finden lassen, wird das Feld leer gelassen. 
 
 ---
 
@@ -627,6 +626,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
