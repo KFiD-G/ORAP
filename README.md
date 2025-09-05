@@ -44,7 +44,7 @@ Einige der wichtigsten Metadatenfelder in ORAP sind:
 
 
 Eine vollständige Liste aller Metadatenfelder finden Sie hier:  
-- **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.2025)](Metadatenschema.md)**
+- **[Metadatenschema der Liste der wissenschaftlichen Preise und Auszeichnungen (Version 1.0.0)](Metadatenschema.md)**
 
 ## Format der Liste
 Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
@@ -57,8 +57,8 @@ Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
 ### **Wie können die Daten heruntergeladen werden?**
 Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar:  
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, UTF-8, Version 1.2025)](LINK)**  
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.2025)](LINK)**
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (tsv, UTF-8, Version 1.0.0)](LINK)**  
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.0.0)](LINK)**
 
 ### **Lizenzierung**
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
