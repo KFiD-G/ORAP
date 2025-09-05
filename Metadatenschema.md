@@ -209,7 +209,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 
 **Aufnahmeregel für Element ID 4**  
 **Name: preisverleiher**  
-Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel und ohne Nennung der Rechtsform. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
+Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Die Aufnahme erfolgt ohne Artikel, jedoch unter Nennung der Rechtsform, sofern vorhanden. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
 
 ---
 
@@ -627,6 +627,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
