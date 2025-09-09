@@ -547,7 +547,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
    - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
 
 3. **Gebunden an internationale Mitgliedschaft mit weltweiter Bewerbung:**  
-   - `einschraenkung_wirkungsstaette_gebiet`: `international`  
+   - `einschraenkung_wirkungsstaette_gebiet`: `International`  
 
 > 🔎 Die Angaben in den Feldern `einschraenkung_wirkungsstaette` und `einschraenkung_wirkungsstaette_gebiet` müssen logisch und nachvollziehbar zusammenpassen.
 
@@ -626,6 +626,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
