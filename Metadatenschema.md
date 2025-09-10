@@ -317,7 +317,7 @@ Beispiel: `https://www.luther-gesellschaft.de/martin-luther-preis.html`
 
 **Mehrere Webseiten:**  
 Wenn der Preis auf mehreren Webseiten beschrieben wird, wird die Hauptseite aufgenommen, die den Preis allgemein beschreibt.  
-Unterseiten, die z. B. nur Preisträger*innen oder Details auflisten, werden nicht eingetragen.  
+Unterseiten, die z. B. nur Preisträger/-innen oder Details auflisten, werden nicht eingetragen.  
 Beispiel:  
 ✔ `https://www.luther-gesellschaft.de/martin-luther-preis.html`  
 ✘ `https://www.luther-gesellschaft.de/martin-luther-preis/preistraeger.html`
@@ -346,13 +346,13 @@ Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseit
 Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende oder wegweisende Forschungsergebnisse vergeben.  
 
 **Lehre:**  
-Ein Preis mit dem Gegenstand “Lehre” ist eine Anerkennung für herausragende Leistungen in der Lehre im akademischen Kontext.
+Ein Preis mit dem Gegenstand „Lehre” ist eine Anerkennung für herausragende Leistungen in der Lehre im akademischen Kontext.
 
 **Transfer:**  
-Ein Preis mit dem Gegenstand “Transfer” würdigt die erfolgreiche Übertragung wissenschaftlicher Erkenntnisse aus dem akademischen Umfeld in die Gesellschaft und Wirtschaft. Er ehrt Leistungen, die sich in der Umsetzung von Forschungsergebnissen in innovative Produkte, Dienstleistungen oder Technologien manifestieren, die Vermittlung von wissenschaftlichem Wissen an die breite Öffentlichkeit fördern und den Dialog zwischen Wissenschaft und Gesellschaft stärken.
+Ein Preis mit dem Gegenstand „Transfer” würdigt die erfolgreiche Übertragung wissenschaftlicher Erkenntnisse aus dem akademischen Umfeld in die Gesellschaft und Wirtschaft. Er ehrt Leistungen, die sich in der Umsetzung von Forschungsergebnissen in innovative Produkte, Dienstleistungen oder Technologien manifestieren, die Vermittlung von wissenschaftlichem Wissen an die breite Öffentlichkeit fördern und den Dialog zwischen Wissenschaft und Gesellschaft stärken.
 
 **Sonstiges:**  
-Ein Preis mit der Kategorie “Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie Sonstiges. Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen nach den jeweiligen Kategorien aufgenommen werden, wo der Anteil am größten ist. Die Kategorie “Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern, z.B. Kunst.
+Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie „Sonstiges". Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen nach den jeweiligen Kategorien aufgenommen werden, wo der Anteil am größten ist. Die Kategorie „Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern, z. B. Kunst.
 
 ### Aufnahmeregeln für Element ID 6 und 6a
 
@@ -389,7 +389,7 @@ Ein Preis mit der Kategorie “Sonstiges” fällt in keine der anderen Kategori
 
 **Wissenschaftlicher Preis:**  
 Ein wissenschaftlicher Preis zeichnet erfolgte wissenschaftliche Leistungen in den Bereichen Forschung, Lehre, Transfer oder Sonstiges aus.  
-Er ist meist mit einer Geldprämie, Urkunde oder Medaille verbunden, aber ohne weiterführende Verpflichtungen für die Preisträger*innen.  
+Er ist meist mit einer Geldprämie, Urkunde oder Medaille verbunden, aber ohne weiterführende Verpflichtungen für die Preisträger/-innen.  
 Auch Projektförderungen können dazugehören, sofern sie nicht an eine Bewerbung mit Projektbeschreibung geknüpft sind.
 
 **Wissenschaftliche Auszeichnung:**  
@@ -410,7 +410,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 |------------------|------|
 | **Element ID**   | 11 |
 | **Name**         | frueh_karr |
-| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler:innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressat*innenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
+| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler/-innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressaten/Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
 | **Entitätentyp** | Binär |
 | **Wert**         | ja; nein |
 | **Occurence**    | 1 |
@@ -425,7 +425,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 |------------------|------|
 | **Element ID**   | 12 |
 | **Name**         | preisgeld |
-| **Definition**   | Angabe zur Höhe des Preisgeldes |
+| **Definition**   | Angabe zur Höhe des Preisgeldes. |
 | **Entitätentyp** | Zahl größer 0 und zwei weitere festgeschriebene Werte |
 | **Wert**         | positive ganze Zahl oder „Keine Angabe“ oder „Kein Preisgeld“ |
 | **Occurence**    | 1 |
@@ -575,11 +575,11 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
   Nur Eigenbewerbungen sind möglich. Eine Nominierung durch Dritte ist nicht erforderlich.
 
 - **Nominierung offen**  
-  Kandidat*innen können von beliebigen Personen oder Einrichtungen vorgeschlagen werden (z. B. Wissenschaftler*innen, Universitäten).  
+  Kandidaten/Kandidatinnen können von beliebigen Personen oder Einrichtungen vorgeschlagen werden (z. B. Wissenschaftler/-innen, Universitäten).  
   Eigenbewerbungen sind **nicht** erlaubt.
 
 - **Nominierung eingeschränkt**  
-  Nur bestimmte Personen oder Gruppen dürfen nominieren (z. B. frühere Preisträger*innen, Mitglieder bestimmter Fachgesellschaften).
+  Nur bestimmte Personen oder Gruppen dürfen nominieren (z. B. frühere Preisträger/-innen, Mitglieder bestimmter Fachgesellschaften).
 
 - **Nominierung Einrichtung / Gremium**  
   Nur institutionelle Nominierungen sind zulässig (z. B. durch Universitäten oder Auswahlgremien).  
@@ -626,6 +626,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
