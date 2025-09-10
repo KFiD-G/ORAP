@@ -200,7 +200,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 |------------------|------|
 | **Element ID**   | 4 |
 | **Name**         | preisverleiher |
-| **Definition**   | Ein Preisverleiher ist eine Organisation, Institution, Stiftung, oder eine Gruppe von Personen und/oder Organisationen, die Preise oder Auszeichnungen für herausragende Leistungen, Entdeckungen oder Beiträge im Bereich der wissenschaftlichen Forschung, der Lehre, des Transfers oder anderen akademischen Bereichen vergibt. |
+| **Definition**   | Ein Preisverleiher ist eine Organisation, Institution, Stiftung oder eine Gruppe von Personen und/oder Organisationen, die Preise oder Auszeichnungen für herausragende Leistungen, Entdeckungen oder Beiträge im Bereich der wissenschaftlichen Forschung, der Lehre, des Transfers oder anderen akademischen Bereichen vergibt. |
 | **Entitätentyp** | Freitext |
 | **Wert**         | Freitext |
 | **Occurence**    | 1-n |
@@ -626,6 +626,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
