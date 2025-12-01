@@ -85,9 +85,7 @@ Um die Community zu stärken und zu vernetzen, werden virtuelle Austauschtermine
 ## **Roadmap: Geplante Weiterentwicklungen**
 - Zuordnung der Preise zu DESTATIS-Fächergruppen
 - Wikidata-IDs für Preisverleiher
-- Deutsche und englische Bezeichnungen für Preisverleiher 
-- (Provenienz der Listeneinträge)
-- s. YWD Dokumentation, Empfehlungen
+- Deutsche und englische Bezeichnungen für alle Preisverleiher 
 
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
