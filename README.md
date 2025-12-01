@@ -83,10 +83,11 @@ Betreiben Sie an Ihrer Einrichtung bereits ein Forschungsinformationssystem mit 
 Um die Community zu stärken und zu vernetzen, werden virtuelle Austauschtermine stattfinden. Auf diesem Wege kann die Weiterentwicklung von ORAP diskutiert werden.
 
 ## **Roadmap: Geplante Weiterentwicklungen**
-- Zuordnung der Preise zu Fächergruppen
+- Zuordnung der Preise zu DESTATIS-Fächergruppen
 - Wikidata-IDs für Preisverleiher
-- Übersetzungen oder alternative Namen für Preisverleiher
-- Provenienz der Listeneinträge
+- Deutsche und englische Bezeichnungen für Preisverleiher 
+- (Provenienz der Listeneinträge)
+- s. YWD Dokumentation, Empfehlungen
 
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
