@@ -21,28 +21,28 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 | ID   | Name                           | Occurrence | Entitätentyp |
 |------|--------------------------------|-----------|--------------|
-| 1    | [Identifier](#identifier)                    | 1         | Identifier   |
+| 1    | [ORAP-PRIZE-ID](#identifier)                    | 1         | Identifier   |
 | 2    | [Wikidata Identifier](#wikidata-identifier)                     | 0-1       | Identifier   |
 | 3    | [Bezeichnung des Preises](#bezeichnung-des-preises)          | 1         | Freitext     |
 | 3a   | [Sprache der Preisbezeichnung](#sprache-der-preisbezeichnung)     | 1         | Kontrollierte Liste (extern) |
-| 3.1   | [Übersetzungen des Preises (EN)](#Übersetzungen-des-Preises)     | 1         | Freitext |
-| 3.2   | [Übersetzungen des Preises (DE)](#Übersetzungen-des-Preises)     | 1         | Freitext |
-| 3.1a  | [Provenienzfeld Preis (EN)](#provenienzfelder-für-preisbezeichnungen)     | 1        | Freitext                |
-| 3.2a  | [Provenienzfeld Preis (DE)](#provenienzfelder-für-preisbezeichnungen)     | 1        | Freitext                |
+| 3.1   | [Bezeichnung des Preises (EN)](#Übersetzungen-des-Preises)     | 1         | Freitext |
+| 3.2   | [Bezeichnung des Preises (DE)](#Übersetzungen-des-Preises)     | 1         | Freitext |
+| 3.1a  | [Provenienzfeld Preis (EN)](#Provenienzfeld-Preis)     | 1        | Freitext                |
+| 3.2a  | [Provenienzfeld Preis (DE)](#Provenienzfeld-Preis)     | 1        | Freitext                |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
 | 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
-| 5    | [Webseite](#webseite-der-beschreibung)                   | 0-1         | Freitext     |
+| 5    | [Webseite des Preises](#Webseite-des-Preises)                   | 0-1         | Freitext     |
 | 6    | [Gegenstand des Preises](#gegenstand-des-preises)                        | 1         | Kontrollierte Liste |
-| 7    | [Art des Preises](#Art-des-Preises-oder-der-Auszeichnung)                  | 1         | Kontrollierte Liste |
-| 11   | [Frühes Karrierestadium](#preis-für-personen-in-einem-frühen-karrierestadium)                      | 1         | Binär: ja; nein |
-| 12   | [Preisgeld](#Dotierung-eines-Preises)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
-| 12a  | [Währung des Preisgeldes](#preisgeld--währung)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
+| 7    | [Art des Preises](#Art-des-Preises)                  | 1         | Kontrollierte Liste |
+| 11   | [Frühes Karrierestadium](#Frühes-Karrierestadium)                      | 1         | Binär: ja; nein |
+| 12   | [Preisgeld](#Preisgeld)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
+| 12a  | [Währung des Preisgeldes](#Währung-des-Preisgeldes)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
 | 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
-| 13.1 | [Einschränkungen – geografische Gebiete](#Einschränkungen--geografische-Gebiete) | 1         | Kontrollierte Liste (extern) |
+| 13.1 | [Einschränkungen bezüglich geografischer Gebiete](#Einschränkungen-bezüglich-geografischer-Gebiete) | 1         | Kontrollierte Liste (extern) |
 | 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte Liste |
-| 16 | [Laufzeitbeginn eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
-| 17 | [Laufzeitende eines Preises](#Laufzeit-eines-Preises) | 0-1         | Jahr (JJJJ) |
+| 16 | [Laufzeitbeginn des Preises](#Laufzeitbeginn-des-Preises) | 0-1         | Jahr (JJJJ) |
+| 17 | [Laufzeitende des Preises](#Laufzeitende-des-Preises) | 0-1         | Jahr (JJJJ) |
 
 ---
 
@@ -66,7 +66,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | Information         | Beschreibung |
 |---------------------|------|
 | **Element_ID**      | 1  |
-| **Name**           | kf_prize_id |
+| **Name**           | ORAP-PRIZE-ID |
 | **Definition**      | Eindeutiger Identifier für jedes Datum. Dieser Identifier ist eine fortlaufende Zahl. |
 | **Entitätentyp**    | Identifier |
 | **Wert**           | Zahl (unbegrenzte Ziffernanzahl) |
@@ -110,7 +110,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
-Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Die Aufnahme erfolgt ohne Artikel. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist. 
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
 
 [🔝](#top)
 
@@ -141,8 +141,8 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 | Information         | Beschreibung |
 |---------------------|------|
 | **Element_ID**  | 3.1  |
-| **Name**        | label_uebersetzung_en |
-| **Definition**  | Bezeichnung des Preises ins Englische übersetzt. |
+| **Name**        | label_bezeichnung_en |
+| **Definition**  | Bezeichnung des Preises in englischer Sprache. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
 | **Occurence**   | 1 |
@@ -150,8 +150,8 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 | Information         | Beschreibung |
 |---------------------|------|
 | **Element_ID**  | 3.2  |
-| **Name**        | label_uebersetzung_de |
-| **Definition**  | Bezeichnung des Preises ins Deutsche übersetzt. |
+| **Name**        | label_bezeichnung_de |
+| **Definition**  | Bezeichnung des Preises in deutscher Sprache. |
 | **Entitätentyp** | Freitext |
 | **Wert**        | Freitext |
 | **Occurence**   | 1 |
@@ -159,8 +159,8 @@ Vergabe des zweistelligen Sprachencodes nach ISO-639-1.
 [🔝](#top)
 
 #### **Aufnahmeregel für Element ID 3.1 und 3.2**
-**Name: label_uebersetzung_en; label_uebersetzung_de**  
-Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sowohl eine deutsche als auch eine englische Übersetzung eingetragen. Die Übersetzungen werden primär den offiziellen Webseiten entnommen. Falls dort keine Übersetzung verfügbar ist, erstellt das ORAP-Team eigene Übersetzungen.
+**Name: label_bezeichnung_en; label_bezeichnung_de**  
+Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sowohl eine deutsche als auch eine englische Bezeichnung eingetragen. Die Bezeichnungen werden primär den offiziellen Webseiten entnommen. Falls dort keine Bezeichnung verfügbar ist, erstellt das ORAP-Team eigene Übersetzungen.
 
 #### Hinweis zur Verwendung von Singular und Plural bei Übersetzungen
 
@@ -170,14 +170,14 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 
 ---
 
-### **Provenienzfelder für Preisbezeichnungen**
+### Provenienzfeld Preis
 
 | Information        | Beschreibung |
 |--------------------|--------------|
 | **Element_ID**     | 3.1a         |
-| **Name**           | provenienz_uebersetzung_en |
-| **Abhängiges Feld**| label_uebersetzung_en |
-| **Definition**     | Quelle/Herkunft der englischen Übersetzung der Preisbezeichnung |
+| **Name**           | provenienz_bezeichnung_en |
+| **Abhängiges Feld**| label_bezeichnung_en |
+| **Definition**     | Quelle/Herkunft der englischen Bezeichnung des Preises |
 | **Entitätentyp**   | Kontrollierte Liste     |
 | **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
@@ -185,12 +185,16 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 | Information        | Beschreibung |
 |--------------------|--------------|
 | **Element_ID**     | 3.2a         |
-| **Name**           | provenienz_uebersetzung_de |
-| **Abhängiges Feld**| label_uebersetzung_de |
-| **Definition**     | Quelle/Herkunft der deutschen Übersetzung der Preisbezeichnung |
+| **Name**           | provenienz_bezeichnung_de |
+| **Abhängiges Feld**| label_bezeichnung_de |
+| **Definition**     | Quelle/Herkunft der deutschen Bezeichnung der Preises |
 | **Entitätentyp**   | Kontrollierte Liste     |
 | **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
+
+**Aufnahmeregel für Element ID 3.1a und ID 3.2a**
+
+„Webseite“ wird vergeben, wenn die Preisbezeichnung von der Webseite des Preises stammt, der Eintrag „ORAP“ weist darauf hin, dass die Übersetzung durch Mitarbeitende der KDSF-Geschäftsstelle erfolgte.
 
 ---
 
@@ -246,7 +250,7 @@ Organisationen der Privatwirtschaft mit dem Ziel wirtschaftlichen Erfolgs und de
 
 #### Öffentlicher Sektor
 Staatliche und supranationale Organisationen mit öffentlichen Aufgaben:
-- Bundes- und Landesbehörden (z. B. BMBF)
+- Bundes- und Landesbehörden (z. B. BMFTR)
 - Supranationale Organisationen (z. B. Europäische Kommission)
 
 #### Stiftungen
@@ -273,7 +277,7 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 
 | Information            | Beschreibung                                                   |
 |---------------------|--------------------------------------------------------|
-| **Element ID**      | 4c                                                     |
+| **Element ID**      | 4b                                                     |
 | **Name**            | land_verleiher                                         |
 | **Abhängiges Feld** | preisverleiher                                         |
 | **Definition**      | Land, in dem der Verleiher des Preises ansässig ist oder seinen Hauptsitz hat. |
@@ -292,7 +296,7 @@ Mehrere Werte werden mit Semikolon getrennt.
 
 ---
 
-### Webseite der Beschreibung
+### Webseite des Preises
 
 | Information         | Beschreibung |
 |------------------|------|
@@ -343,7 +347,7 @@ Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseit
 **Definitionen der Werte:**
 
 **Forschung:**  
-Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende oder wegweisende Forschungsergebnisse vergeben.  
+Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende Forschungsarbeiten vergeben.  
 
 **Lehre:**  
 Ein Preis mit dem Gegenstand „Lehre” ist eine Anerkennung für herausragende Leistungen in der Lehre im akademischen Kontext.
@@ -372,15 +376,15 @@ Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategori
 
 ---
 
-### Art des Preises oder der Auszeichnung
+### Art des Preises
 
 | Information         | Beschreibung |
 |------------------|------|
 | **Element ID**   | 7 |
 | **Name**         | art_preis_ausz |
-| **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis, eine wissenschaftliche Auszeichnung oder eine Akademiemitgliedschaft handelt. |
+| **Definition**   | Dieses Metadatum legt fest, ob es sich um einen wissenschaftlichen Preis oder eine wissenschaftliche Auszeichnung handelt. |
 | **Entitätentyp** | Kontrollierte Liste |
-| **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung; Akademiemitgliedschaft |
+| **Wert**         | Wissenschaftlicher Preis; Wissenschaftliche Auszeichnung |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -389,28 +393,21 @@ Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategori
 
 **Wissenschaftlicher Preis:**  
 Ein wissenschaftlicher Preis zeichnet erfolgte wissenschaftliche Leistungen in den Bereichen Forschung, Lehre, Transfer oder Sonstiges aus.  
-Er ist meist mit einer Geldprämie, Urkunde oder Medaille verbunden, aber ohne weiterführende Verpflichtungen für die Preisträger/-innen.  
-Auch Projektförderungen können dazugehören, sofern sie nicht an eine Bewerbung mit Projektbeschreibung geknüpft sind.
 
 **Wissenschaftliche Auszeichnung:**  
-Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.  
-Beispiele: Ehrendoktorwürde, Ehrenprofessur, Aufnahme in eine Fachgesellschaft.  
-Projektförderungen wie ERC-Grants gelten nur dann als Auszeichnung, wenn sie besonders prestigeträchtig sind.
-
-**Akademiemitgliedschaft:**  
-Eine Akademiemitgliedschaft ist die dauerhafte Aufnahme in eine [Akademie der Wissenschaften](https://de.wikipedia.org/wiki/Akademie_der_Wissenschaften), die auf Grundlage besonderer wissenschaftlicher Leistungen erfolgt.   
-Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale Akademie der Wissenschaften.
-
+Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.    
+Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, nämlich dann, wenn sie besonders prestigeträchtig sind (z.B. ERC-Grants).
 
 ---
 
-### Preis für Personen in einem frühen Karrierestadium
+### Frühes Karrierestadium
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 11 |
+| **Element ID**   | 8 |
 | **Name**         | frueh_karr |
-| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler/-innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressaten/Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
+| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler/-innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressaten-/
+Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
 | **Entitätentyp** | Binär |
 | **Wert**         | ja; nein |
 | **Occurence**    | 1 |
@@ -419,11 +416,11 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 
 ---
 
-### Dotierung eines Preises
+### Preisgeld
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 12 |
+| **Element ID**   | 9 |
 | **Name**         | preisgeld |
 | **Definition**   | Angabe zur Höhe des Preisgeldes. |
 | **Entitätentyp** | Zahl größer 0 und zwei weitere festgeschriebene Werte |
@@ -449,11 +446,11 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 
 ---
 
-### Preisgeld – Währung
+### Währung des Preisgeldes
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 12a |
+| **Element ID**   | 9a |
 | **Name**         | preisgeld_waehrung |
 | **Abhängiges Feld** | preisgeld |
 | **Definition**   | Währung des Landes, in welchem der Preis vergeben wird. |
@@ -469,7 +466,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 13 |
+| **Element ID**   | 10 |
 | **Name**         | einschraenkung_wirkungsstaette |
 | **Definition**   | Gibt an, ob bei der Vergabe eines Preises Einschränkungen hinsichtlich der Ansässigkeit oder Wirkungsstätte bestehen. |
 | **Entitätentyp** | Kontrollierte Liste |
@@ -487,10 +484,10 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
   Der Preis richtet sich an Personen in Deutschland, Österreich und/oder der Schweiz.
 
 - **International:**  
-  Der Preis ist für Personen in bestimmten Ländern oder Regionen vorgesehen. Mehrere Länder können genannt werden.
+  Der Preis ist für Personen in bestimmten Ländern oder Regionen vorgesehen.
 
 - **Keine Einschränkung:**  
-  Es gibt keine geografischen Einschränkungen.
+  Es gibt keine Einschränkungen.
 
 - **Sonstiges:**  
   Es liegt eine andere Form der Einschränkung vor.
@@ -500,7 +497,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 
 ---
 
-### Einschränkungen – geografische Gebiete
+### Einschränkungen bezüglich geografischer Gebiete
 
 | Information         | Beschreibung |
 |------------------|------|
@@ -541,15 +538,12 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 #### Mögliche Fälle:
 
 1. **Gebunden an eine konkrete Einrichtung in einem bestimmten Ort:**  
-   - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland | Baden-Württemberg | Freiburg`  
+   - `einschraenkung_wirkungsstaette_gebiet`: `Deutschland | Baden-Württemberg | Freiburg`   
 
-2. **Gebunden an eine Organisation, aber ohne geografische Einschränkung:**  
-   - `einschraenkung_wirkungsstaette_gebiet`: `Keine Angabe`  
-
-3. **Gebunden an internationale Mitgliedschaft mit weltweiter Bewerbung:**  
+2. **Gebunden an internationale Mitgliedschaft mit weltweiter Bewerbung:**  
    - `einschraenkung_wirkungsstaette_gebiet`: `International`  
 
-> 🔎 Die Angaben in den Feldern `einschraenkung_wirkungsstaette` und `einschraenkung_wirkungsstaette_gebiet` müssen logisch und nachvollziehbar zusammenpassen.
+> Die Angaben in den Feldern `einschraenkung_wirkungsstaette` und `einschraenkung_wirkungsstaette_gebiet` müssen logisch und nachvollziehbar zusammenpassen.
 
 ---
 
@@ -557,7 +551,7 @@ Zum Beispiel in die Deutsche Akademie der Naturforscher Leopoldina – Nationale
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 15 |
+| **Element ID**   | 11 |
 | **Name**         | nominierung |
 | **Definition**   | Gibt an, ob Eigenbewerbungen möglich sind und/oder wer nominieren darf. |
 | **Entitätentyp** | Kontrollierte Liste |
@@ -599,11 +593,11 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 
 ---
 
-### Laufzeit eines Preises
+### Laufzeit des Preises
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 16 |
+| **Element ID**   | 12 |
 | **Name**         | laufzeit_beginn |
 | **Definition**   | Gibt das Jahr an, in dem der Preis erstmals verliehen wurde. |
 | **Entitätentyp** | Zahl |
@@ -616,7 +610,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 17 |
+| **Element ID**   | 13 |
 | **Name**         | laufzeit_ende |
 | **Definition**   | Gibt das Jahr an, in dem der Preis letztmalig verliehen wurde. |
 | **Entitätentyp** | Zahl |
@@ -626,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
