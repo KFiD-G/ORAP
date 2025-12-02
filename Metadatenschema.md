@@ -41,8 +41,8 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
 | 13.1 | [Einschränkungen bezüglich geografischer Gebiete](#Einschränkungen-bezüglich-geografischer-Gebiete) | 1         | Kontrollierte Liste (extern) |
 | 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte Liste |
-| 16 | [Laufzeitbeginn des Preises](#Laufzeitbeginn-des-Preises) | 0-1         | Jahr (JJJJ) |
-| 17 | [Laufzeitende des Preises](#Laufzeitende-des-Preises) | 0-1         | Jahr (JJJJ) |
+| 16 | [Laufzeitbeginn des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
+| 17 | [Laufzeitende des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
 
 ---
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
