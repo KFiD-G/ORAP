@@ -31,18 +31,18 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | 3.2a  | [Provenienzfeld Preis (DE)](#Provenienzfeld-Preis)     | 1        | Freitext                |
 | 4    | [Preisverleiher](#preisverleiher)                  | 1-n       | Freitext     |
 | 4a   | [Kategorie des Preisverleihers](#kategorie-des-preisverleihers)              | 1-n       | Kontrollierte Liste |
-| 4c   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
+| 4b   | [Land des Verleihers](#land-des-verleihers)                  | 1-n       | Kontrollierte Liste (extern) |
 | 5    | [Webseite des Preises](#Webseite-des-Preises)                   | 0-1         | Freitext     |
 | 6    | [Gegenstand des Preises](#gegenstand-des-preises)                        | 1         | Kontrollierte Liste |
 | 7    | [Art des Preises](#Art-des-Preises)                  | 1         | Kontrollierte Liste |
-| 11   | [Frühes Karrierestadium](#Frühes-Karrierestadium)                      | 1         | Binär: ja; nein |
-| 12   | [Preisgeld](#Preisgeld)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
-| 12a  | [Währung des Preisgeldes](#Währung-des-Preisgeldes)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
-| 13   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
-| 13.1 | [Einschränkungen bezüglich geografischer Gebiete](#Einschränkungen-bezüglich-geografischer-Gebiete) | 1         | Kontrollierte Liste (extern) |
-| 15 | [Nominierung](#nominierung) | 0-1         | Kontrollierte Liste |
-| 16 | [Laufzeitbeginn des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
-| 17 | [Laufzeitende des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
+| 8   | [Frühes Karrierestadium](#Frühes-Karrierestadium)                      | 1         | Binär: ja; nein |
+| 9   | [Preisgeld](#Preisgeld)                       | 1         | Zahl; Keine Angabe; Kein Preisgeld |
+| 9a  | [Währung des Preisgeldes](#Währung-des-Preisgeldes)              | 1         | Kontrollierte Liste (extern): ISO 4217 |
+| 10   | [Einschränkungen bezüglich der Wirkungsstätte](#Einschränkungen-bezüglich-der-Wirkungsstätte)  | 1         | Kontrollierte Liste |
+| 10.1 | [Einschränkungen bezüglich geografischer Gebiete](#Einschränkungen-bezüglich-geografischer-Gebiete) | 1         | Kontrollierte Liste (extern) |
+| 11 | [Nominierung](#nominierung) | 0-1         | Kontrollierte Liste |
+| 12 | [Laufzeitbeginn des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
+| 13 | [Laufzeitende des Preises](#Laufzeit-des-Preises) | 0-1         | Jahr (JJJJ) |
 
 ---
 
@@ -287,7 +287,7 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 
 [🔝](#top)
 
-**Aufnahmeregel für Element ID 4c**
+**Aufnahmeregel für Element ID 4b**
 
 Das Land des Verleihers entspricht dem Land, in dem die Organisation ihren Hauptsitz hat.  
 Das Land kann in der Regel im Impressum der Website des Verleihers recherchiert werden.  
@@ -358,7 +358,7 @@ Ein Preis mit dem Gegenstand „Transfer” würdigt die erfolgreiche Übertragu
 **Sonstiges:**  
 Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie „Sonstiges". Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen nach den jeweiligen Kategorien aufgenommen werden, wo der Anteil am größten ist. Die Kategorie „Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern, z. B. Kunst.
 
-### Aufnahmeregeln für Element ID 6 und 6a
+### Aufnahmeregeln für Element ID 6
 
 **Name:** `art_flts`
 
@@ -429,7 +429,7 @@ Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben.
 
 [🔝](#top)
 
-#### Aufnahmeregel für Element ID 12
+#### Aufnahmeregel für Element ID 9
 
 - **Höchste Dotierung:**  
   Es wird immer das höchste Preisgeld eingetragen, auch wenn es für weitere Plätze geringere Dotierungen gibt.  
@@ -501,7 +501,7 @@ Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben.
 
 | Information         | Beschreibung |
 |------------------|------|
-| **Element ID**   | 13.1 |
+| **Element ID**   | 10.1 |
 | **Name**         | einschraenkung_wirkungsstaette_gebiet |
 | **Definition**   | Länder, Regionen oder Orte, in denen die Wirkungsstätte liegen muss. |
 | **Entitätentyp** | Freitext |
@@ -510,7 +510,7 @@ Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben.
 
 [🔝](#top)
 
-#### Aufnahmeregeln für Element ID 13 und 13.1
+#### Aufnahmeregeln für Element ID 10.1
 
 - **Hierarchische Struktur geografischer Angaben:**  
   Gebiete werden vom Allgemeinen zum Spezifischen angegeben und durch das Pipe-Symbol getrennt.  
@@ -582,7 +582,7 @@ Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben.
 - **Keine Angabe**  
   Es liegen keine öffentlich zugänglichen Informationen zur Nominierung vor.
 
-#### Aufnahmeregel für Element ID 15
+#### Aufnahmeregel für Element ID 11
 
 Die Abgrenzung zwischen „Nominierung eingeschränkt“ und „Nominierung Einrichtung / Gremium“ ist nicht immer eindeutig:
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
