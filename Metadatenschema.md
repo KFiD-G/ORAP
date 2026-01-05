@@ -282,7 +282,7 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 | **Abhängiges Feld** | preisverleiher                                         |
 | **Definition**      | Land, in dem der Verleiher des Preises ansässig ist oder seinen Hauptsitz hat. |
 | **Entitätentyp**    | Kontrollierte Liste (extern)                           |
-| **Wert**            | Ländercode nach ISO-3166-2 (ALPHA-2)                   |
+| **Wert**            | Ländercode nach ISO-3166-2 (ALPHA-2), „International“ (bei wechselnden Ländern), „Keine Angabe“                   |
 | **Occurence**       | 1-n (entsprechend der Anzahl der Preisverleiher)       |
 
 [🔝](#top)
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
