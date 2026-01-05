@@ -402,15 +402,15 @@ Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, n�
 
 ### Frühes Karrierestadium
 
-| Information         | Beschreibung |
-|------------------|------|
+| Information       | Beschreibung |
+|------------------|--------------|
 | **Element ID**   | 8 |
 | **Name**         | frueh_karr |
-| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler/-innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressaten-/
-Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
+| **Definition**   | Preise und Auszeichnungen für Personen in einem frühen Karrierestadium werden an Wissenschaftler/-innen vergeben, die sich in einer Qualifizierungs-, Aufbau- oder Bewährungsphase für den Verbleib in der Wissenschaft befinden. Dazu zählen auch Preise und Auszeichnungen, die an Personen unterhalb eines bestimmten Höchstalters verliehen werden oder ausschließlich Leistungen im Rahmen von Qualifikationsarbeiten würdigen, die vor wenigen Jahren abgeschlossen wurden. Häufig wird der spezielle Adressaten-/Adressatinnenkreis bereits im Namen des Preises oder der Auszeichnung angegeben. |
 | **Entitätentyp** | Binär |
 | **Wert**         | ja; nein |
-| **Occurence**    | 1 |
+| **Occurrence**   | 1 |
+
 
 [🔝](#top)
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
