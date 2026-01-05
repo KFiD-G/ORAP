@@ -350,7 +350,7 @@ Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseit
 Ein Preis mit dem Gegenstand „Forschung“ wird als Anerkennung für herausragende Forschungsarbeiten vergeben.  
 
 **Lehre:**  
-Ein Preis mit dem Gegenstand „Lehre” ist eine Anerkennung für herausragende Leistungen in der Lehre im akademischen Kontext.
+Ein Preis mit dem Gegenstand „Lehre” ist eine Anerkennung für herausragende Leistungen in der akademischen Lehre.
 
 **Transfer:**  
 Ein Preis mit dem Gegenstand „Transfer” würdigt die erfolgreiche Übertragung wissenschaftlicher Erkenntnisse aus dem akademischen Umfeld in die Gesellschaft und Wirtschaft. Er ehrt Leistungen, die sich in der Umsetzung von Forschungsergebnissen in innovative Produkte, Dienstleistungen oder Technologien manifestieren, die Vermittlung von wissenschaftlichem Wissen an die breite Öffentlichkeit fördern und den Dialog zwischen Wissenschaft und Gesellschaft stärken.
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
