@@ -53,6 +53,26 @@ Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
 - **Excel (XLSX)** – für komfortables Arbeiten in Microsoft Excel oder anderen kompatiblen Programmen.
 
+## Versionierung
+
+Die Kuratierung und Weiterentwicklung der ORAP-Datenbestände durch die Geschäftsstelle der KFiD wird über eine dreistufige Versionierung dokumentiert. Ziel ist es, Änderungen transparent und für alle Nutzerinnen und Nutzer nachvollziehbar zu machen.
+
+Die Versionsnummer besteht aus drei Teilen:
+
+**Major.Minor.Patch**  
+Beispiel: Version 1.0.2
+
+**Major-Version**  
+Eine Major-Version wird vergeben, wenn grundlegende Änderungen vorgenommen werden. Dazu zählen insbesondere strukturelle Anpassungen am Metadatenschema, neue oder geänderte Pflichtfelder sowie andere Änderungen, die nicht mehr vollständig abwärtskompatibel sind.
+
+**Minor-Version**  
+Eine Minor-Version wird vergeben, wenn neue Inhalte ergänzt werden, die abwärtskompatibel bleiben. Dazu gehören beispielsweise neue Preise und Auszeichnungen, neue optionale Metadatenfelder oder inhaltliche Erweiterungen bestehender Einträge.
+
+**Patch-Version**  
+Eine Patch-Version wird vergeben, wenn Fehler korrigiert oder kleinere Anpassungen vorgenommen werden, etwa Korrekturen von Schreibweisen, Formatfehlern oder anderen geringfügigen Unstimmigkeiten. Patch-Versionen sind immer abwärtskompatibel.
+
+Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich werden veröffentlichte Versionen als GitHub Releases bereitgestellt. Ein Release enthält die ORAP-Daten als TSV- und Excel-Datei sowie das Metadatenschema in der jeweils gültigen Fassung.
+
 ## **Nutzung**
 
 ### **Wie können die Daten heruntergeladen werden?**
