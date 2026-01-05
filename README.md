@@ -94,6 +94,7 @@ Sie möchten einen Preis oder eine Auszeichnung zur Aufnahme in das Register vor
 **Nutzen Sie dazu bitte dieses [Formular](https://form-interface-5d7ffe.zapier.app/)**.
 
 ### **Pflege**
+Trotz aller Sorgfalt können Einträge im Register im Laufe der Zeit veralten oder vereinzelt Fehler aufweisen. Wir sind daher auf Hinweise aus der Community angewiesen. 
 Sie haben in GitHub die Möglichkeit ein neues Issue anzulegen, um auf **Korrekturbedarf** hinzuweisen. Bitte nennen Sie dabei immer den Identifier des Preises bzw. der Auszeichnung (`kf_prize_id`). Alternativ können Sie auch dieses **[Formular](https://form-interface-5d7ffe.zapier.app/)** verwenden.
 
 ### **Datenspende**
