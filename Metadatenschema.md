@@ -258,7 +258,7 @@ Organisationen mit gemeinnützigem Zweck (außerhalb von Wissenschaft), z. B. 
 - Kultur
 - Soziales
 - Gesundheit
-- Umwelt
+- Umwelt  
 Stiftungen mit Wissenschaftsbezug zählen zum „wissenschaftlichen Sektor“.
 
 #### Sonstige
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
