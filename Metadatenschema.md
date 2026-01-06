@@ -356,7 +356,7 @@ Ein Preis mit dem Gegenstand „Lehre” ist eine Anerkennung für herausragende
 Ein Preis mit dem Gegenstand „Transfer” würdigt die erfolgreiche Übertragung wissenschaftlicher Erkenntnisse aus dem akademischen Umfeld in die Gesellschaft und Wirtschaft. Er ehrt Leistungen, die sich in der Umsetzung von Forschungsergebnissen in innovative Produkte, Dienstleistungen oder Technologien manifestieren, die Vermittlung von wissenschaftlichem Wissen an die breite Öffentlichkeit fördern und den Dialog zwischen Wissenschaft und Gesellschaft stärken.
 
 **Sonstiges:**  
-Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie „Sonstiges". Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen nach den jeweiligen Kategorien aufgenommen werden, wo der Anteil am größten ist. Die Kategorie „Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern, z. B. Kunst.
+Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategorien, auch nicht in Anteilen. Preise, die nicht Forschung, Lehre oder Transfer zugeordnet werden können, bekommen die Kategorie „Sonstiges". Preise, die Anteile an den Kategorien Forschung, Lehre oder Transfer haben, sollen in die jeweilige Kategorie aufgenommen werden, bei der dieser Anteil am größten ist. Die Kategorie „Sonstiges” ist für Preise, die eindeutig keine der Kategorien Forschung, Lehre oder Transfer bedienen, sondern z. B. Kunst.
 
 ### Aufnahmeregeln für Element ID 6
 
@@ -620,6 +620,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
