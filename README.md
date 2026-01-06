@@ -49,7 +49,7 @@ Eine vollständige Liste aller Metadatenfelder finden Sie hier:
 ## Format der Liste
 Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
-- **CSV (UTF-8 kodiert)** – geeignet für die Verarbeitung in Tabellenkalkulationen und Datenbanken.
+- **CSV (tab-getrennt)** – geeignet für die Verarbeitung in Tabellenkalkulationen und Datenbanken.
 
 - **Excel (XLSX)** – für komfortables Arbeiten in Microsoft Excel oder anderen kompatiblen Programmen.
 
