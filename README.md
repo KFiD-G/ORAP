@@ -63,13 +63,13 @@ Die Versionsnummer besteht aus drei Teilen:
 Beispiel: Version 1.0.2
 
 **Major-Version**  
-Eine Major-Version wird vergeben, wenn grundlegende Änderungen vorgenommen werden. Dazu zählen insbesondere strukturelle Anpassungen am Metadatenschema, neue oder geänderte Pflichtfelder sowie andere Änderungen, die nicht mehr vollständig abwärtskompatibel sind.
+Eine Major-Version wird vergeben, wenn grundlegende Änderungen vorgenommen werden. Dazu zählen insbesondere strukturelle Anpassungen am Metadatenschema, geänderte Metadatenfelder sowie andere Änderungen, die nicht mehr abwärtskompatibel sind.
 
 **Minor-Version**  
-Eine Minor-Version wird vergeben, wenn neue Inhalte ergänzt werden, die abwärtskompatibel bleiben. Dazu gehören beispielsweise neue Preise und Auszeichnungen, neue optionale Metadatenfelder oder inhaltliche Erweiterungen bestehender Einträge.
+Eine Minor-Version wird vergeben, wenn neue Inhalte ergänzt werden. Dazu gehören beispielsweise neue Preise und Auszeichnungen, neue Metadatenfelder, zusätzliche Informationen zu bestehenden Einträgen oder kleinere Erweiterungen, die vollständig abwärtskompatibel bleiben.
 
 **Patch-Version**  
-Eine Patch-Version wird vergeben, wenn Fehler korrigiert oder kleinere Anpassungen vorgenommen werden, etwa Korrekturen von Schreibweisen, Formatfehlern oder anderen geringfügigen Unstimmigkeiten. Patch-Versionen sind immer abwärtskompatibel.
+Eine Patch-Version wird vergeben, wenn Fehler korrigiert oder kleine Anpassungen vorgenommen werden. Dazu können Korrekturen von Schreibweisen, Formatfehlern oder anderen kleinen Unstimmigkeiten gehören. Patch-Versionen sind immer abwärtskompatibel.
 
 Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich werden veröffentlichte Versionen als GitHub Releases bereitgestellt. Ein Release enthält die ORAP-Daten als CSV- und Excel-Datei sowie das Metadatenschema in der jeweils gültigen Fassung.
 
