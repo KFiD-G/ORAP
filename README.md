@@ -71,13 +71,13 @@ Eine Minor-Version wird vergeben, wenn neue Inhalte ergänzt werden, die abwärt
 **Patch-Version**  
 Eine Patch-Version wird vergeben, wenn Fehler korrigiert oder kleinere Anpassungen vorgenommen werden, etwa Korrekturen von Schreibweisen, Formatfehlern oder anderen geringfügigen Unstimmigkeiten. Patch-Versionen sind immer abwärtskompatibel.
 
-Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich werden veröffentlichte Versionen als GitHub Releases bereitgestellt. Ein Release enthält die ORAP-Daten als TSV- und Excel-Datei sowie das Metadatenschema in der jeweils gültigen Fassung.
+Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich werden veröffentlichte Versionen als GitHub Releases bereitgestellt. Ein Release enthält die ORAP-Daten als CSV- und Excel-Datei sowie das Metadatenschema in der jeweils gültigen Fassung.
 
 ## **Nutzung**
 
 ### **Wie können die Daten heruntergeladen werden?**
 Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar:  
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (tsv, UTF-8, Version 1.0.0)](LINK)**  
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV (tab-getrennt), Version 1.0.0)](LINK)**  
 - **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.0.0)](LINK)**
 
 ### **Lizenzierung**
