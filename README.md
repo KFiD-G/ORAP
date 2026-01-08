@@ -79,7 +79,7 @@ Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich we
 
 ### **Wie können die Daten heruntergeladen werden?**
 
-Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar. Die Dateien werden direkt aus dem öffentlichen Google-Sheets-Tabellenblatt *„ORAP öffentlich“* generiert und enthalten stets den aktuellsten Stand der Daten.
+Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links verfügbar. Die Dateien werden im Rahmen der jeweiligen ORAP-Versionen auf GitHub bereitgestellt und spiegeln den Stand der Daten zum Zeitpunkt der Veröffentlichung wider.
 
 - **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, tab-getrennt, UTF-8, Version 1.0.0)](https://docs.google.com/spreadsheets/d/1y8Fq4rr-NrYsZfgAXA-ng5jfeSkWYXNZ3uBxLPD8F24/export?format=csv&gid=1417429135)**
 - **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel, Version 1.0.0)](https://docs.google.com/spreadsheets/d/1y8Fq4rr-NrYsZfgAXA-ng5jfeSkWYXNZ3uBxLPD8F24/export?format=xlsx&gid=1417429135)**
