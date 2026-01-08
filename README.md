@@ -86,6 +86,9 @@ Die aktuellen Daten sind als CSV- und Excel-Dateien über die folgenden Links ve
 
 Die CSV-Datei wird tabulatorgetrennt und in UTF-8 bereitgestellt, um Konflikte mit Semikolons in Textfeldern zu vermeiden.
 
+*Hinweis: Beim Öffnen der CSV-Datei in Excel wird empfohlen, die Datei über „Daten → Aus Text/CSV“ zu importieren und UTF-8 als Codierung auszuwählen, da ein direkter Doppelklick zu Darstellungsproblemen bei Umlauten führen kann.*
+
+
 ### **Lizenzierung**
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
