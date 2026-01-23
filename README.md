@@ -10,10 +10,10 @@
 
 **ORAP ist ein Community-getriebenes Projekt – wir freuen uns über Ihre Beteiligung und Ihr Feedback!**
 
-### **Was ist ORAP?**
+## **Was ist ORAP?**
 Das **Offene Register für Auszeichnungen und Preise (ORAP)** ist ein zentrales, öffentlich zugängliches Angebot, das qualitätsgesicherte Metadaten über wissenschaftliche Preise und Auszeichnungen bereitstellt. Ziel ist es, eine verlässliche und kuratierte Liste von Preisen und Auszeichnungen anzubieten und diese gemeinsam mit der Community laufend zu aktualisieren und zu erweitern.
 
-### **Warum wurde ORAP entwickelt?**
+## **Warum wurde ORAP entwickelt?**
 
 Zur Unterstützung der Datenverarbeitung in Hochschulen und außeruniversitären Forschungseinrichtungen baut die **[Kommission für Forschungsinformationen in Deutschland (KFiD)](https://kfid-online.de/)** verschiedene Angebote und Ressourcen auf. Ein besonderer Fokus liegt dabei auf sogenannten **Stammdatenangeboten**, die als verlässliche Basis für Informationsinfrastrukturen dienen.
 
@@ -21,7 +21,7 @@ ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu
 
 Eine Einführung in ORAP und seine Entstehung bietet dieses **Hintergrunddokument** **<-- Hier noch Link einfügen ---**.
 
-### **Was bietet ORAP?**
+## **Was bietet ORAP?**
 - **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und strukturierte** Sammlung.
 - **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (`kf_prize_id`).
 - **Qualitätsgesicherte Metadaten**: Alle Einträge werden bei der Aufnahme überprüft und mit Metadaten versehen. 
@@ -29,7 +29,7 @@ Eine Einführung in ORAP und seine Entstehung bietet dieses **Hintergrunddokumen
 - **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Informationen helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
 
 
-### **[Metadatenfelder](Metadatenschema.md)**
+## **[Metadatenfelder](Metadatenschema.md)**
 Einige der wichtigsten Metadatenfelder in ORAP sind:
 - **Identifier** (ORAP & Wikidata)
 - **Bezeichnung des Preises** (Originalsprache)
