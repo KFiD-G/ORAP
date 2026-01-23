@@ -50,12 +50,12 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 | Information      | Beschreibung |
 |-----------------|-------------|
-| **Element_ID**  | Eindeutiger Identifier für ein Metadatenelement |
+| **Element_ID**  | Eindeutiger Identifier für ein Metadatenelement. |
 | **Name**        | Name des Feldes, wie es in der Liste benutzt wird. |
-| **Definition**  | Definition des Metadatenelements |
-| **Entitätentyp** | Art des Elements (Binär, Identifier, Kontrollierte Liste, Zahl, Freitext, Datum) |
-| **Wert**        | Bestimmt die Syntax des Wertes nach bestimmten Encoding-Schemen (z. B. ISO-Norm) |
-| **Occurence**   | Gibt an, wie oft das Element auftauchen kann (1, 1-n, 0-n) |
+| **Definition**  | Definition des Metadatenelements. |
+| **Entitätentyp** | Art des Elements (Binär, Identifier, Kontrollierte Liste, Zahl, Freitext, Datum). |
+| **Wert**        | Bestimmt die Syntax des Wertes nach bestimmten Encoding-Schemata (z. B. ISO-Norm). |
+| **Occurence**   | Gibt an, wie oft das Element auftauchen kann (1, 1-n, 0-n). |
 
 ---
 
@@ -69,7 +69,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 | **Name**           | ORAP-PRIZE-ID |
 | **Definition**      | Eindeutiger Identifier für jedes Datum. Dieser Identifier ist eine fortlaufende Zahl. |
 | **Entitätentyp**    | Identifier |
-| **Wert**           | Zahl (unbegrenzte Ziffernanzahl) |
+| **Wert**           | Beginnt mit O, gefolgt von sechs Ziffern |
 | **Occurence**      | 1 |
 
 [🔝](#top)
@@ -166,7 +166,7 @@ Preise werden in ihrer Originalbezeichnung erfasst. Zusätzlich werden immer sow
 
 Die Originalbezeichnung eines Preises wird in der vorhandenen Sprachform (Singular oder Plural) übernommen.  
 Bei Übersetzungen ins Deutsche oder Englische soll nach Möglichkeit eine Vereinheitlichung auf den Singular erfolgen (z. B. *Awards → Preis*).  
-Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verständlichkeit und Vergleichbarkeit.
+Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen der Verständlichkeit und Vergleichbarkeit sowie der Durchsuchbarkeit der Daten.
 
 ---
 
@@ -177,7 +177,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 | **Element_ID**     | 3.1a         |
 | **Name**           | provenienz_bezeichnung_en |
 | **Abhängiges Feld**| label_bezeichnung_en |
-| **Definition**     | Quelle/Herkunft der englischen Bezeichnung des Preises |
+| **Definition**     | Quelle/Herkunft der englischen Bezeichnung des Preises. |
 | **Entitätentyp**   | Kontrollierte Liste     |
 | **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
@@ -187,14 +187,14 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen nur der Verstä
 | **Element_ID**     | 3.2a         |
 | **Name**           | provenienz_bezeichnung_de |
 | **Abhängiges Feld**| label_bezeichnung_de |
-| **Definition**     | Quelle/Herkunft der deutschen Bezeichnung der Preises |
+| **Definition**     | Quelle/Herkunft der deutschen Bezeichnung der Preises. |
 | **Entitätentyp**   | Kontrollierte Liste     |
 | **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
 
 **Aufnahmeregel für Element ID 3.1a und ID 3.2a**
 
-„Webseite“ wird vergeben, wenn die Preisbezeichnung von der Webseite des Preises stammt, der Eintrag „ORAP“ weist darauf hin, dass die Übersetzung durch Mitarbeitende der KDSF-Geschäftsstelle erfolgte.
+„Webseite“ wird vergeben, wenn die Preisbezeichnung von der Webseite des Preises stammt, der Eintrag „ORAP“ weist darauf hin, dass die Übersetzung durch das ORAP-Team der KFiD-Geschäftsstelle erfolgte.
 
 ---
 
@@ -239,31 +239,27 @@ Organisationen, die primär aus dem Bereich der Wissenschaft und Forschung stamm
 - Universitäten und Hochschulen (z. B. Technische Universität München)
 - Forschungsinstitute (z. B. Max-Planck-Institute, Fraunhofer-Institute)
 - Forschungsförderungsorganisationen (z. B. Deutsche Forschungsgemeinschaft)
-- Stiftungen mit Fokus auf Wissenschaft (z. B. Alexander von Humboldt-Stiftung)
-- Fachzeitschriften (z. B. European Journal of Immunology)
+- Stiftungen mit einem ausschließlichen Fokus auf die Förderung von Wissenschaft und Forschung (ohne Engführung auf bestimmte Disziplinen oder Forschungsgegenstände) (z. B. Alexander von Humboldt-Stiftung)
+- Fachzeitschriften (z. B. European Journal of Immunology).
 
 #### Wirtschaftlicher Sektor
-Organisationen der Privatwirtschaft mit dem Ziel wirtschaftlichen Erfolgs und der Förderung unternehmerischer Interessen:
+Organisationen der Privatwirtschaft mit dem Ziel des wirtschaftlichen Erfolgs und der Förderung unternehmerischer Interessen:
 - Unternehmen (z. B. Siemens)
 - Industrieverbände (z. B. Verband der Chemischen Industrie)
-- Wissenschaftsverlage (z. B. Springer Medizin)
+- Wissenschaftsverlage (z. B. Springer Medizin).
 
 #### Öffentlicher Sektor
 Staatliche und supranationale Organisationen mit öffentlichen Aufgaben:
-- Bundes- und Landesbehörden (z. B. BMFTR)
-- Supranationale Organisationen (z. B. Europäische Kommission)
+- Bundes- und Landesbehörden (z. B. Bundesministerium für Forschung, Technologie und Raumfahrt)
+- Supranationale Organisationen (z. B. Europäische Kommission).
 
 #### Stiftungen
-Organisationen mit gemeinnützigem Zweck (außerhalb von Wissenschaft), z. B. in den Bereichen:
-- Kultur
-- Soziales
-- Gesundheit
-- Umwelt  
-Stiftungen mit Wissenschaftsbezug zählen zum „wissenschaftlichen Sektor“.
+Organisationen mit gemeinnützigem Zweck, z. B. in den Bereichen Kultur, Soziales, Gesundheit, Umwelt oder einem ausschließlichen Fokus auf die Förderung von Forschung in bestimmten Disziplinen oder zu bestimmten Forschungsgegenständen.
+Stiftungen mit einem ausschließlichen Fokus auf die Förderung von Wissenschaft und Forschung (ohne Engführung auf bestimmte Disziplinen oder Forschungsgegenstände) zählen zum „wissenschaftlichen Sektor“.
+
 
 #### Sonstige
-Organisationen, die keiner der oben genannten Kategorien zugeordnet werden können, z. B.:
-- Berufsorganisationen
+Organisationen, die keiner der oben genannten Kategorien zugeordnet werden können, z. B. Berufsorganisationen.
 
 **Aufnahmeregel für Element ID 4a**  
 **Name: `preisverleiher_kat`**  
@@ -305,7 +301,7 @@ Mehrere Werte werden mit Semikolon getrennt.
 | **Definition**   | URL einer Website, die vom Preisverleiher betrieben wird und auf welcher der Preis beschrieben ist. |
 | **Entitätentyp** | Freitext |
 | **Wert**         | URL der Subdomain, des Ordners oder der Website, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
-| **Occurence**    | 0-1 |
+| **Occurence**    | 1 |
 
 [🔝](#top)
 
@@ -327,7 +323,7 @@ Beispiel:
 ✘ `https://www.luther-gesellschaft.de/martin-luther-preis/preistraeger.html`
 
 **Keine URL verfügbar:**  
-Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseite des Preisverleihers bzw. den Webseiten der Preisverleiher ebenfalls keine Informationen über den Preis finden lassen, wird das Feld leer gelassen. 
+Wenn keine spezifische URL für den Preis vorhanden ist und sich auf der Webseite des Preisverleihers bzw. den Webseiten der Preisverleiher ebenfalls keine Informationen über den Preis finden lassen, wird der Preis nicht in ORAP aufgenommen. 
 
 ---
 
@@ -368,9 +364,6 @@ Ein Preis mit der Kategorie „Sonstiges” fällt in keine der anderen Kategori
 - **Mehrfachzuordnung:**  
   Wenn mehrere Kategorien zutreffen, wird diejenige gewählt, auf die der Preis am stärksten zutrifft.
 
-- **Unklare Zuordnung:**  
-  Ist keine eindeutige Kategorie erkennbar und deckt der Preis mehrere Bereiche ab, wird standardmäßig „Forschung“ gewählt.
-
 - **Kein Bezug zu den Hauptkategorien:**  
   Wenn keine der drei Hauptkategorien zutrifft, wird „Sonstiges“ verwendet.  
 
@@ -396,7 +389,7 @@ Ein wissenschaftlicher Preis zeichnet erfolgte wissenschaftliche Leistungen in d
 
 **Wissenschaftliche Auszeichnung:**  
 Eine wissenschaftliche Auszeichnung würdigt außergewöhnliche Beiträge im akademischen Bereich, oft verbunden mit spezifischen Verpflichtungen.    
-Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, nämlich dann, wenn sie besonders prestigeträchtig sind (z.B. ERC-Grants).
+Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, nämlich dann, wenn sie besonders prestigeträchtig sind (z. B. ERC-Grants).
 
 ---
 
@@ -577,7 +570,6 @@ Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, n�
 
 - **Nominierung Einrichtung / Gremium**  
   Nur institutionelle Nominierungen sind zulässig (z. B. durch Universitäten oder Auswahlgremien).  
-  Die Nominierung selbst stellt bereits eine Form der Auszeichnung dar.
 
 - **Keine Angabe**  
   Es liegen keine öffentlich zugänglichen Informationen zur Nominierung vor.
@@ -620,6 +612,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
