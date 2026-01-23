@@ -118,6 +118,10 @@ Folgende Weiterentwicklungen sind bereits in Planung:
 - Aufnahme von Mitgliedschaften in wissenschaftlichen Akademien als weitere Kategorie (Art des Preises)
 - Spende der Daten von ORAP an Wikidata 
 
+## **Hilfe**
+
+Antworten auf häufige Fragen finden Sie in den ORAP-FAQ [Hier noch Link einfügen].
+
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
 **[orap@kfid-online.de](mailto:orap@kfid-online.de)**
