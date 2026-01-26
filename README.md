@@ -56,7 +56,7 @@ Die ORAP-Daten werden in folgenden Formaten zur Verfügung gestellt:
 
 ## Versionierung
 
-Die Kuratierung und Weiterentwicklung der ORAP-Datenbestände durch die Geschäftsstelle der KFiD wird über eine dreistufige Versionierung dokumentiert. Ziel ist es, Änderungen transparent und für alle Nutzerinnen und Nutzer nachvollziehbar zu machen.
+Die Kuratierung und Weiterentwicklung der ORAP-Datenbestände durch die Geschäftsstelle der KFiD wird über eine dreistufige Versionierung (sogenanntes Semantic Versioning) dokumentiert. Ziel ist es, Änderungen transparent und für alle Nutzerinnen und Nutzer nachvollziehbar zu machen.
 
 Die Versionsnummer besteht aus drei Teilen:
 
