@@ -23,9 +23,9 @@ Eine Einführung in ORAP und seine Entstehung bietet dieses **Hintergrunddokumen
 
 ## **Was bietet ORAP?**
 - **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und strukturierte** Sammlung.
-- **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (`kf_prize_id`).
+- **Persistente IDs**: Alle enthaltenen Preise und Auszeichnungen haben einen Identifikator (`ORAP-PRIZE-ID`).
 - **Qualitätsgesicherte Metadaten**: Alle Einträge werden bei der Aufnahme überprüft und mit Metadaten versehen. 
-- **Standardisierte Metadaten**: Alle Preise und Auszeichnungen werden der Aufnahme kategorisiert, um eine **Filterung und gezielte Auswahl** von Preisen und Auszeichnungen zu ermöglichen.
+- **Standardisierte Metadaten**: Alle Preise und Auszeichnungen werden vor der Aufnahme kategorisiert, um eine **Filterung und gezielte Auswahl** von Preisen und Auszeichnungen zu ermöglichen.
 - **Erleichterung für Hochschulen & Forschungseinrichtungen**: Die Informationen helfen Einrichtungen beim **Aufbau verlässlicher Informationsinfrastrukturen**, ohne dass sie eigene Recherchen durchführen müssen.
 
 
