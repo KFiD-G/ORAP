@@ -1,5 +1,3 @@
-<!-- DEMO: nur zum Testen ---->
-
 # Offenes Register für Auszeichnungen und Preise (ORAP)
 
 ## Metadatenschema  
@@ -110,7 +108,7 @@ Das Schema umfasst **22 speziell entwickelte Felder**, die auf die Anforderungen
 
 #### **Aufnahmeregel für Element ID 3**
 **Name: label_sprache_original**  
-Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
+Preise werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Preise auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Preisbezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen.
 
 [🔝](#top)
 
@@ -187,7 +185,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen der Verständli
 | **Element_ID**     | 3.2a         |
 | **Name**           | provenienz_bezeichnung_de |
 | **Abhängiges Feld**| label_bezeichnung_de |
-| **Definition**     | Quelle/Herkunft der deutschen Bezeichnung der Preises. |
+| **Definition**     | Quelle/Herkunft der deutschen Bezeichnung des Preises. |
 | **Entitätentyp**   | Kontrollierte Liste     |
 | **Wert**           | Webseite; ORAP     |
 | **Occurence**      | 1          |
@@ -213,7 +211,7 @@ Die Originalform bleibt dabei maßgeblich; Übersetzungen dienen der Verständli
 
 **Aufnahmeregel für Element ID 4**  
 **Name: preisverleiher**  
-Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen, sofern diese auf der offiziellen Webseite vorgegeben ist.
+Preisverleiher werden in ihrer originalsprachigen Bezeichnung aufgenommen. Es kommt vor, dass Verleiher auf der Webseite unterschiedlich angesetzt werden; es soll die gängigste Ansetzungsform gewählt werden. Für Bezeichnungen, die in einem anderen Schriftsystem als dem lateinischen Alphabet verfasst sind, ist eine transliterierte Version der Bezeichnung vorzuziehen.
 
 ---
 
@@ -286,7 +284,7 @@ Kategorien für mehrere Preisverleiher werden durch Semikolon getrennt.
 **Aufnahmeregel für Element ID 4b**
 
 Das Land des Verleihers entspricht dem Land, in dem die Organisation ihren Hauptsitz hat.  
-Das Land kann in der Regel im Impressum der Website des Verleihers recherchiert werden.  
+Das Land kann in der Regel im Impressum der Webseite des Verleihers recherchiert werden.  
 Hat der Verleiher mehrere Standorte, wird das Land des Hauptsitzes der Organisation eingetragen.  
 Mehrere Werte werden mit Semikolon getrennt.
 
@@ -298,9 +296,9 @@ Mehrere Werte werden mit Semikolon getrennt.
 |------------------|------|
 | **Element ID**   | 5 |
 | **Name**         | website_preis |
-| **Definition**   | URL einer Website, die vom Preisverleiher betrieben wird und auf welcher der Preis beschrieben ist. |
+| **Definition**   | URL einer Webseite, die vom Preisverleiher betrieben wird und auf welcher der Preis beschrieben ist. |
 | **Entitätentyp** | Freitext |
-| **Wert**         | URL der Subdomain, des Ordners oder der Website, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
+| **Wert**         | URL der Subdomain, des Ordners oder der Webseite, auf der der Preis beschrieben ist; Eintragung der URL mit http://www… oder https://www… |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -308,7 +306,7 @@ Mehrere Werte werden mit Semikolon getrennt.
 **Aufnahmeregel für Element ID 5**
 
 **Vollständige URL:**  
-Die URL der Website des Preises wird vollständig und inklusive aller relevanten Bestandteile (z. B. Protokoll, Domain, Subdomain, Unterordner) aufgenommen.  
+Die URL der Webseite des Preises wird vollständig und inklusive aller relevanten Bestandteile (z. B. Protokoll, Domain, Subdomain, Unterordner) aufgenommen.  
 Beispiel: `https://www.nobelprize.org/prizes/chemistry/`
 
 **Preis mit eigener Domain, Subdomain oder Unterordner:**  
@@ -498,7 +496,7 @@ Projektförderungen werden nur in Ausnahmefällen als Auszeichnung behandelt, n�
 | **Name**         | einschraenkung_wirkungsstaette_gebiet |
 | **Definition**   | Länder, Regionen oder Orte, in denen die Wirkungsstätte liegen muss. |
 | **Entitätentyp** | Freitext |
-| **Wert**         | Ortsangaben gemäß GeoNames, z. B. „Deutschland \| Bayern \| München“ |
+| **Wert**         | Ortsangaben gemäß [GeoNames](https://www.geonames.org/), z. B. „Deutschland \| Bayern \| München“ |
 | **Occurence**    | 1 |
 
 [🔝](#top)
@@ -612,6 +610,7 @@ Wenn sowohl Eigenbewerbungen als auch Nominierungen erlaubt sind, auch wenn nur 
 [🔝](#top)
 
 ---
+
 
 
 
