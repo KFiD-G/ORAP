@@ -19,7 +19,7 @@ Zur Unterstützung der Datenverarbeitung in Hochschulen und außeruniversitären
 
 ORAP wurde initiiert, um eine qualitätsgesicherte Sammlung von Informationen zu wissenschaftlichen Preisen bereitzustellen. Die Geschäftsstelle der KFiD übernimmt hierbei die Kuratierung und Qualitätssicherung der Daten. Die Entwicklung und Pflege von ORAP erfolgt in enger Zusammenarbeit mit der Community, um eine nachhaltige und vertrauenswürdige Datenquelle zu schaffen. 
 
-Eine Einführung in ORAP und seine Entstehung bietet dieses **Hintergrunddokument** **<-- Hier noch Link einfügen ---**.
+Eine Einführung in ORAP und seine Entstehung bietet dieses **[Hintergrunddokument](https://doi.org/10.58010/orap:doku:2026)**.
 
 ## **Was bietet ORAP?**
 - **Zentrale Sammlung und Strukturierung**: Bisher existieren verstreute, oft unvollständige Listen von wissenschaftlichen Preisen. ORAP schafft eine **einheitliche und strukturierte** Sammlung.
