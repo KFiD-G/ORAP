@@ -120,7 +120,7 @@ Folgende Weiterentwicklungen sind bereits in Planung:
 
 ## **Hilfe**
 
-Antworten auf häufige Fragen finden Sie in den ORAP-FAQ [Hier noch Link einfügen].
+Antworten auf häufige Fragen finden Sie in den [ORAP-FAQ](https://kerndatensatz-forschung.de/index.php?id=faq).
 
 ## **Kontakt**
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
