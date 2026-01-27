@@ -1,13 +1,8 @@
-<div>
-  <img src="https://kfid-online.de/images/layout/logo.svg"
-       alt="KFiD-Logo"
-       height="105"
-       style="vertical-align: middle; margin-right: 20px;" />
+<p>
   <img src="https://kfid-online.de/images/content/logos/orap-logo.svg"
-       alt="ORAP-Logo"
-       height="80"
-       style="vertical-align: middle;" />
-</div>
+       alt="ORAP – Offenes Register für Auszeichnungen und Preise"
+       height="90">
+</p>
 
 ---
 
@@ -133,6 +128,13 @@ Antworten auf häufige Fragen finden Sie in den [ORAP-FAQ](https://kerndatensatz
 Bei Fragen oder Anregungen erreichen Sie uns unter:  
 **[orap@kfid-online.de](mailto:orap@kfid-online.de)**
 
+---
+
+<p>
+  <img src="https://kfid-online.de/images/layout/logo.svg"
+       alt="KFiD"
+       height="40">
+</p>
 
 
 
