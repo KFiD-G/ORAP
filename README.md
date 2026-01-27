@@ -1,14 +1,13 @@
-<p align="left">
+<div>
   <img src="https://kfid-online.de/images/layout/logo.svg"
        alt="KFiD-Logo"
        height="105"
-       style="vertical-align: middle; margin-right: 20px;">
-
+       style="vertical-align: middle; margin-right: 20px;" />
   <img src="https://kfid-online.de/images/content/logos/orap-logo.svg"
        alt="ORAP-Logo"
        height="80"
-       style="vertical-align: middle;">
-</p>
+       style="vertical-align: middle;" />
+</div>
 
 ---
 
