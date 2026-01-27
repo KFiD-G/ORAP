@@ -133,7 +133,7 @@ Bei Fragen oder Anregungen erreichen Sie uns unter:
 <p>
   <img src="https://kfid-online.de/images/layout/logo.svg"
        alt="KFiD"
-       height="40">
+       height="60">
 </p>
 
 
