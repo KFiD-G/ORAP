@@ -92,7 +92,7 @@ Alle veröffentlichten Versionen werden darüber hinaus auf **Zenodo** bereitges
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
 ### **Zitiervorschlag**
-KFiD – Kommission für Forschungsinformationen in Deutschland (2025): Offenes Register für Auszeichnungen und Preise, Berlin. [https://doi.org/10.5281/zenodo.18398790](https://doi.org/10.5281/zenodo.18398790)
+KFiD – Kommission für Forschungsinformationen in Deutschland (2026): Offenes Register für Auszeichnungen und Preise, Berlin. [https://doi.org/10.5281/zenodo.18398790](https://doi.org/10.5281/zenodo.18398790)
 
 ## **Mitmachen**
 Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
