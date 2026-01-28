@@ -82,16 +82,17 @@ Alle Änderungen werden in der Datei `CHANGELOG.md` dokumentiert. Zusätzlich we
 
 Die aktuelle Version (derzeit **1.0.0**) ist über folgende Links verfügbar:
 
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, tab-getrennt, UTF-8)](https://docs.google.com/spreadsheets/d/1y8Fq4rr-NrYsZfgAXA-ng5jfeSkWYXNZ3uBxLPD8F24/export?format=csv&gid=1417429135)**
-- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel)](https://docs.google.com/spreadsheets/d/1y8Fq4rr-NrYsZfgAXA-ng5jfeSkWYXNZ3uBxLPD8F24/export?format=xlsx&gid=1417429135)**
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (CSV, tab-getrennt, UTF-8)](https://github.com/KFiD-G/ORAP/releases/download/v1.0.0/ORAP_v1.0.0.csv)**
+- **[Liste der wissenschaftlichen Preise und Auszeichnungen (Excel)](https://github.com/KFiD-G/ORAP/releases/download/v1.0.0/ORAP_v1.0.0.xlsx)**
 
-Alle veröffentlichten Versionen werden darüber hinaus auf **Zenodo** **<-- Hier noch Link einfügen ---** bereitgestellt und archiviert.
+Alle veröffentlichten Versionen werden darüber hinaus auf **Zenodo** bereitgestellt und archiviert:
+[https://doi.org/10.5281/zenodo.18398790](https://doi.org/10.5281/zenodo.18398790)
 
 ### **Lizenzierung**
 ORAP wird unter der [**CC0-Lizenz**](https://creativecommons.org/publicdomain/zero/1.0/deed.de) veröffentlicht.
 
 ### **Zitiervorschlag**
-KFiD – Kommission für Forschungsinformationen in Deutschland (2025): Offenes Register für Auszeichnungen und Preise, Berlin. [https://doi.org/10.58010/kfid:orap:2026]**<-- Hier noch Link Zenodo Mantel-DOI einfügen ---**
+KFiD – Kommission für Forschungsinformationen in Deutschland (2026): Offenes Register für Auszeichnungen und Preise, Berlin. [https://doi.org/10.5281/zenodo.18398790](https://doi.org/10.5281/zenodo.18398790)
 
 ## **Mitmachen**
 Die Community ist eingeladen, sich an der Pflege und Erweiterung von ORAP zu beteiligen. Hier ein paar Möglichkeiten: 
